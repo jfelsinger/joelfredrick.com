@@ -37,9 +37,10 @@ $c-borderDark: #c9c9c9;
 
 $baseSize: 16px;
 $baseLineHeight: 16px * 1.618;
-$maxSiteWidth: 1200px;
+$maxSiteWidth: 960px;
 
-$break-width-small: 570px;
+$break-width-small: 630px;
+$break-width-tiny: 480px;
 
 @function em($px, $base: $baseSize) {
     @return ($px / $base) * 1em;
@@ -115,6 +116,7 @@ h1 {
     color: $c-postTitle;
     font-family: $f-openSans;
     font-size: 4.236em;
+    font-size: 2.618em;
     font-weight: bold;
 
     @media screen and (max-width: $break-width-small) {
@@ -127,16 +129,17 @@ h1 {
 h2 {
     color: $c-postTitle;
     font-family: $f-ptCap;
-    font-size: 2.618em;
+    font-size: 1.618em;
     font-weight: normal;
-    line-height: 1;
 }
 
 h3 {
-    color: $c-postTitle;
+    color: $c-borderDark;
     font-family: $f-ptSans;
-    font-size: 1.618em;
-    font-weight: bold;
+    font-size: 1.458em;
+    font-weight: normal;
+
+    @include prefix(text-shadow, 0 2px #fff);
 }
 
 /* etc */
@@ -237,17 +240,20 @@ h3 {
 
 .site-logo-text {
     font-size: 4.236em;
+    line-height: 1;
 
     @include plainlinks($c-title);
 
-    @media screen and (max-width: $break-width-small) {
+    @media screen and (max-width: $break-width-tiny) {
         & {
-            width: 4em;
+            font-size: 2.618em;
         }
     }
 }
 
 .site-logo {
+    display: none !important; /* I hate this logo */
+
     background: url('/images/logo.png') no-repeat top right;
     position: absolute;
     top: 0;
@@ -259,7 +265,13 @@ h3 {
 
     @media screen and (max-width: $break-width-small) {
         & {
-            right: em($baseLineHeight * 2 * -1);
+            top: em($baseLineHeight);
+        }
+    }
+
+    @media screen and (max-width: $break-width-tiny) {
+        & {
+            display: none;
         }
     }
 }
@@ -416,7 +428,7 @@ h3 {
     }
 
 .post-summary {
-    margin: 2.618em 0 1em 1em;
+    margin: em($baseLineHeight) 0 1em 1em;
     padding: 1em;
     border: 1px solid $c-border;
     background: #f0f0f0;
@@ -435,6 +447,11 @@ h3 {
         .post-summary__links--last {
             border: none;
         }
+
+.post-preview {
+    font-size: .85em;
+    padding-top: em($baseLineHeight);
+}
 
 .highlight {
     margin-bottom: em($baseLineHeight);

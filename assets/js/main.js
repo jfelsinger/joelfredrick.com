@@ -1,20 +1,11 @@
 $(document).ready(function() {
     $('body').flowtype({
         minimum     : 500,
-        maximum     : 1200,
-        minFont     : 12,
-
-        // lineRatio   : 1.618,
-        fontRatio   : 67.773
-    });
-
-    $('.post').flowtype({
-        minimum     : 500,
-        maximum     : 1200,
+        maximum     : 960,
         minFont     : 14,
+        maxFont     : 18,
 
-        // lineRatio   : 1.618,
-        fontRatio   : 67.773
+        fontRatio   : 38
     });
 
     $(".button-expand").click(function() {
