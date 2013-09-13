@@ -10,30 +10,44 @@ summary_links:
   - { name: "jekyll on github", href: "https://github.com/mojombo/jekyll"}
 ---
 
-###This is a sample post
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis 
-> augue nec lorem **tincidunt** imperdiet sit amet vel neque. Duis in semper 
-> nibh. In congue magna a enim convallis, nec sagittis nunc adipiscing. 
-> Morbi ut interdum turpis. In in ornare massa. Nunc iaculis rhoncus lacus, 
-> nec condimentum risus scelerisque sed. Vivamus et nisl accumsan leo 
-> venenatis bibendum. `printf()` augue. Nulla tristique nunc sit amet quam 
-> mollis consectetur. Donec eget quam tempus, *ullamcorper* erat vel, vehicula 
-> metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+##This is a sample post
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis 
+augue nec lorem **tincidunt** imperdiet sit amet vel neque. Duis in semper 
+nibh. In congue magna a enim convallis, nec sagittis nunc adipiscing. 
+
+###First Ipsum
+Morbi ut interdum turpis. In in ornare massa. Nunc iaculis rhoncus lacus, 
+nec condimentum risus scelerisque sed. Vivamus et nisl accumsan leo 
+venenatis bibendum. printf()` augue. Nulla tristique nunc sit amet quam 
+mollis consectetur. Donec eget quam tempus, *ullamcorper* erat vel, vehicula 
+metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 1. Some
 2. Sample
 3. List-Items
 
-- - - - -
+nec condimentum risus scelerisque sed. Vivamus et nisl accumsan leo 
+venenatis bibendum. printf()` augue. Nulla tristique nunc sit amet quam 
+mollis consectetur. Donec eget quam tempus, *ullamcorper* erat vel, vehicula 
 
-- Some
-- Sample
-- List-Items
+###Lorem Ipsum
+Morbi ut interdum turpis. In in ornare massa. Nunc iaculis rhoncus lacus, 
+turpis. In in ornare massa. Nunc iaculis rhoncus lacus, 
+condimentum risus Vivamus et nisl accumsan leo 
+nec condimentum risus scelerisque sed. Vivamus et nisl accumsan leo 
 
-Jekyll also offers powerful support for code snippets:
+tum risus Vivamus et nisl accumsan leo nec condimen
+
+##Dolar Set
+augue. Nulla tristique nunc sit amet quam mollis consectetur. Donec 
+eget qua Jekyll also ofum risus scelerisque sed. Vivamus et nisl 
+accumsan leo venenatis bibendum. printf()` augue. Nulla tristique 
+nunc sit amet quam mollis consectetur. Donec eget quam tempus,fers 
+powerful support for code snippets:
 
 ```ruby
 def print_hi(name)
