@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    {{ content }}
+
+    <footer class="post__footer">
+        {% if page.branch-url %}
+        <script async src="http://embed-script.branch.com/assets/embed/embed.m.js?body=0" data-branch-embedid="{{ page.branch-id }}" ></script>
+        <noscript>
+            <p class="page-navigation">
+                <a href="{{ page.branch-url }}" title="Branch Discussion" target="_blank">Join the discussion on Branch!</a>
+            </p>
+        </noscript>
+        {% else %}
+        <p class="post-time">Posted on <time datetime="2013-09-03" pubdate>09.03.2013</time></p>
+        {% endif %}
+    </footer>
+</article>

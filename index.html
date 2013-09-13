@@ -1,0 +1,56 @@
+---
+layout: default
+title: Joel Fredrick
+index: true
+---
+
+<section id="posts">
+    {% for post in paginator.posts %}
+    <article class="post post--seperated clear-fix">
+        <a href="#" class="button-expand right" title="Expand">expand</a>
+        <header class="clear-fix listing-header">
+            <h2 class="plain-links"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="post-time">Posted <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></p>
+        </header>
+
+        <div class="post-content post-content--preview post-content--hidden clear">
+            {% if post.summary %}
+            <section class="post-summary">
+                {% if post.summary_links %}
+                <section class="post-summary__links">
+                    <ul class="post-summary__list">
+                        {% for link in post.summary_links %}
+                        <li><a href="{{ link.href }}" class="media media--sprite media--link">{{ link.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+                {% endif %}
+                {% if post.summary_image-links %}
+                <section class="post-summary__links post-summary__links--images post-summary__links--last">
+                    <ul class="post-summary__list">
+                        {% for link in post.summary_image-links %}
+                        <li><a href="{{ link.href }}" class="media media--sprite media--image-link">{{ link.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+                {% endif %}
+            </section>
+            {% endif %}
+
+            <section class="post-preview">
+                {{ post.excerpt }}
+            </section>
+        </div>
+    </article>
+    {% endfor %}
+
+    <p class="page-navigation">
+        {% if paginator.previous_page %}
+        <a href="index.html/page/{{ paginator.previous_page }}" title="View some of my older posts">Older Posts</a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+        <a href="index.html/page/{{ paginator.next_page }}" title="View my more recent posts">Newer Posts</a>
+        {% endif %}
+    </p>
+</section>
