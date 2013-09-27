@@ -2,7 +2,7 @@
  * _global.scss
  *
  * General use functions 
- * and global variables
+ * and global definitions
  *
  */
 
@@ -62,12 +62,10 @@ $break-width-tiny: 480px;
     }
 }
 
-@mixin clearfix {
-    position: relative;
-
+@mixin clearfix { /* beat that clearfix, thanks css-101 */
     &:after {
-        content: " ";
-        display: block;
+        content: "";
+        display: table;
         clear: both;
     }
 }
@@ -94,3 +92,23 @@ $break-width-tiny: 480px;
 .faded {
     opacity: .7;
 }
+
+
+/*** Site Base **/
+body {
+    color: $c-text;
+    font-family: $f-openSans;
+    font-size: $baseSize;
+    line-height: 1.618;
+    text-align: center;
+    padding: em($baseLineHeight) 0;
+    background: $c-bg;
+    overflow-x: hidden;
+}
+
+    .site-wrapper {
+        text-align: left;
+        width: 92%;
+        max-width: $maxSiteWidth;
+        margin: 0 auto;
+    }
