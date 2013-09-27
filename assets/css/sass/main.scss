@@ -432,7 +432,7 @@ h3 {
     }
 
 .toggle-slider {
-    max-height: 700px; /* Arbitrary */
+    max-height: em($baseLineHeight * 22); /* Arbitrary number of lines to show */
     overflow: hidden;
 
     @include prefix(transition, (max-height 1.5s));
