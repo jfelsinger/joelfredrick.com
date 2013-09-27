@@ -8,6 +8,7 @@ index: true
     {% for post in paginator.posts %}
     <article class="post post--seperated clear-fix">
         <header class="clear-fix listing-header">
+            <a href="#" class="button-expand right" title="Expand">expand</a>
             <h2 class="plain-links"><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="post-time">Posted <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></p>
         </header>
