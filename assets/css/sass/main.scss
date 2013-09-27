@@ -350,7 +350,7 @@ h3 {
     ol, ul { list-style-position: inside; }
 
     hr {
-        margin: em($baseLineHeight * 2) em($baseLineHeight * 3) em($baseLineHeight);
+        margin: 0 em($baseLineHeight * 3) em($baseLineHeight);
         background: none;
         border: 1px solid $c-border;
     }
@@ -378,7 +378,7 @@ h3 {
 
 .page-navigation {
     font-size: 1.618em;
-    margin: $baseLineHeight 0;
+    margin: 0 0 $baseLineHeight;
 }
 
 .listing-header {
@@ -389,7 +389,7 @@ h3 {
     text-indent: -9999px; /* Hide the actual text */
     width: 80px;
     height: 60px;
-    margin: em($baseLineHeight) 0 0 em($baseLineHeight);
+    margin: 0 0 0 em($baseLineHeight);
     background: url('/images/post-buttons--standard.png') no-repeat center center;
     display: block;
     position: relative;
@@ -419,22 +419,29 @@ h3 {
         }
     }
 
-.post-content {
+.toggle-slider {
     max-height: 700px; /* Arbitrary */
-    padding: 0 em($baseLineHeight);
-    background: $c-lightGray;
     overflow: hidden;
 
-    @include prefix(transition, (max-height 1.5s, margin 0.5s));
+    @include prefix(transition, (max-height 1.5s));
 }
 
-    .post-content--hidden {
+    .toggle-slider--hidden {
         max-height: 0;
         display: block;
     }
 
+.post-content {
+}
+
+    .post-content--preview {
+        padding: em($baseLineHeight);
+        background: $c-lightGray;
+    }
+
+
 .post-summary {
-    margin: em($baseLineHeight) 0 1em 1em;
+    margin: 0 0 1em 1em;
     padding: 1em;
     border: 1px solid $c-border;
     background: #f0f0f0;
@@ -455,8 +462,7 @@ h3 {
         }
 
 .post-preview {
-    font-size: .85em;
-    padding-top: em($baseLineHeight);
+    font-size: .667em;
 }
 
 .highlight {
