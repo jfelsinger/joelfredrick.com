@@ -1,0 +1,26 @@
+.media {
+    padding-left: em($baseLineHeight);
+    position: relative;
+}
+
+    .media--sprite {
+        &:before {
+            font-family: 'entypo';
+            content: " ";
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    .media--link:before {
+        font-size: 2.618em;
+        content: "\1F517";
+    }
+
+    .media--image-link:before {
+        font-size: 2.2em;
+        content: "\1F304";
+    }
+
