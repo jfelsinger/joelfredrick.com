@@ -1,0 +1,96 @@
+/*
+ * _global.scss
+ *
+ * General use functions 
+ * and global variables
+ *
+ */
+
+$c-bg: #fff;
+$c-text: #000;
+
+$f-openSans: 'Open Sans', 'OpenSans', verdana, sans-serif;
+$f-ptSans: 'PT Sans';
+$f-ptCap: 'PT Serif Caption', 'PTSerif-Caption';
+
+
+$c-logo: #e5e5e5;
+$c-title: #2e2e2e;
+$c-postTitle: #3e3e3e;
+
+$c-lightBlue: #8Bd0e4;
+$c-darkBlue: #5496a8;
+
+$c-lightGray: #fafafa;
+
+$c-footer: #fff1ad;
+
+$c-border: #e6e6e6;
+$c-borderDark: #c9c9c9;
+
+$baseSize: 16px;
+$baseLineHeight: 16px * 1.618;
+$maxSiteWidth: 960px;
+
+$break-width-small: 630px;
+$break-width-tiny: 480px;
+
+@function em($px, $base: $baseSize) {
+    @return ($px / $base) * 1em;
+}
+
+@mixin prefix($name, $value) {
+    @each $vendor in ('-webkit-', '-moz-', '-o-', '') {
+        #{$vendor}#{$name}: #{$value};
+    }
+}
+
+@mixin spanbackground($value) {
+    background: $value;
+    &:before,
+    &:after {
+        background: $value;
+    }
+}
+
+@mixin plainlinks($color: #000) {
+    a,
+    a:link,
+    a:visited {
+        color: $color;
+        text-decoration: none;
+    }
+}
+
+@mixin clearfix {
+    position: relative;
+
+    &:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+}
+
+.left   { float: left;  }
+.right  { float: right; }
+.clear  { clear: both;  }
+.clearL { clear: left;  }
+.clearR { clear: right; }
+
+.a-left   { text-align: left;  }
+.a-right  { text-align: right; }
+.a-center { text-align: center; }
+.clear-fix { @include clearfix; }
+
+.plain-links {
+    @include plainlinks(inherit);
+}
+
+.hidden {
+    display: none;
+}
+
+.faded {
+    opacity: .7;
+}
