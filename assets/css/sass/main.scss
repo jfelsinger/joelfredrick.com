@@ -116,12 +116,12 @@ h1 {
     color: $c-postTitle;
     font-family: $f-openSans;
     font-size: 4.236em;
-    font-size: 2.618em;
+    font-size: 3.706em;
     font-weight: bold;
 
     @media screen and (max-width: $break-width-small) {
         & {
-            font-size: 2.618em;
+            font-size: 3.706em;
         }
     }
 }
@@ -129,14 +129,14 @@ h1 {
 h2 {
     color: $c-postTitle;
     font-family: $f-ptCap;
-    font-size: 1.618em;
+    font-size: 2.618em;
     font-weight: normal;
 }
 
 h3 {
     color: $c-borderDark;
     font-family: $f-ptSans;
-    font-size: 1.458em;
+    font-size: 2.291em;
     font-weight: normal;
 
     @include prefix(text-shadow, 0 2px #fff);
@@ -446,23 +446,24 @@ h3 {
     border: 1px solid $c-border;
     background: #f0f0f0;
     float: right;
-
 }
 
     .post-summary__list {
         list-style: none;
+        margin-bottom: 0 !important;
     }
 
     .post-summary__links {
         border-bottom: 1px solid $c-borderDark;
     }
 
+        .post-summary__links:last-of-type,
         .post-summary__links--last {
             border: none;
         }
 
 .post-preview {
-    font-size: .667em;
+    font-size: 0.875em;
 }
 
 .highlight {
