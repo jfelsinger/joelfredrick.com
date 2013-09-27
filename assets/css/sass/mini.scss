@@ -1,10 +1,9 @@
 @import "fonts";
 @import "syntax";
 
-@import "utilities/_global.scss";
 @import "utilities/_reset.scss";
+@import "utilities/_global.scss";
 
-@import "main";
 
 @import "quarks/_headers.scss";
 @import "quarks/_images.scss";
@@ -12,6 +11,7 @@
 @import "quarks/_lists.scss";
 @import "quarks/_paragraphs.scss";
 @import "quarks/_selection.scss";
+@import "quarks/_misc.scss";
 
 @import "atoms/_display-text.scss";
 @import "atoms/_media.scss";
@@ -24,4 +24,12 @@
 @import "atoms/_post-content.scss";
 @import "atoms/_post-preview.scss";
 @import "atoms/_post-summary.scss";
-@import "atoms/_time.scss";
+@import "atoms/_post-time.scss";
+
+@import "molecules/_site-header.scss";
+@import "molecules/_site-nav.scss";
+@import "molecules/_site-logo-text.scss";
+@import "molecules/_site-logo.scss";
+@import "molecules/_mainContent.scss";
+@import "molecules/_post__footer.scss";
+@import "molecules/_site-footer.scss";

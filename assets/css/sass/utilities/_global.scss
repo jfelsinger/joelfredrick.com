@@ -118,9 +118,9 @@ body {
     }
 
 
-    h1,h2,h3,h4,h5,h6,hgroup,
+    hgroup,
     ul,ol,dd,
-    p,figure,
+    p, figure, blockquote,
     pre,table,fieldset,hr{
         margin-bottom: em($baseLineHeight);
     }
