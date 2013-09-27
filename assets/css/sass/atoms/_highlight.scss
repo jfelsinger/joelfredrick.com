@@ -1,0 +1,15 @@
+.highlight {
+    margin-bottom: em($baseLineHeight);
+    padding: em($baseLineHeight);
+    border: 1px solid $c-borderDark;
+    background: $c-border;
+    clear: both;
+
+    ::selection {
+        background: #bbf1ff;
+    }
+
+    .c1::selection {
+        background: rgba(187,241,255,.7);
+    }
+}
