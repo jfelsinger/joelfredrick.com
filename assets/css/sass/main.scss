@@ -121,7 +121,7 @@ h1 {
 
     @media screen and (max-width: $break-width-small) {
         & {
-            font-size: 3.706em;
+            font-size: 2.618em;
         }
     }
 }
@@ -131,6 +131,12 @@ h2 {
     font-family: $f-ptCap;
     font-size: 2.618em;
     font-weight: normal;
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            font-size: 2.291em;
+        }
+    }
 }
 
 h3 {
@@ -140,6 +146,12 @@ h3 {
     font-weight: normal;
 
     @include prefix(text-shadow, 0 2px #fff);
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            font-size: 1.618em;
+        }
+    }
 }
 
 /* etc */
