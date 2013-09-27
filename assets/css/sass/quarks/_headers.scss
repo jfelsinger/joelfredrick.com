@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.618;
+}
+
+h1 {
+    color: $c-postTitle;
+    font-family: $f-openSans;
+    font-size: 4.236em;
+    font-size: 3.706em;
+    font-weight: bold;
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            font-size: 2.618em;
+        }
+    }
+}
+
+h2 {
+    color: $c-postTitle;
+    font-family: $f-ptCap;
+    font-size: 2.618em;
+    font-weight: normal;
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            font-size: 2.291em;
+        }
+    }
+}
+
+h3 {
+    color: $c-borderDark;
+    font-family: $f-ptSans;
+    font-size: 2.291em;
+    font-weight: normal;
+
+    @include prefix(text-shadow, 0 2px #fff);
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            font-size: 1.618em;
+        }
+    }
+}
+

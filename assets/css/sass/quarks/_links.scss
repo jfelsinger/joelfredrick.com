@@ -1,0 +1,16 @@
+a {
+    color: $c-darkBlue;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: #27a6c9;
+        text-decoration: underline;
+    }
+    &:active {
+    }
+
+    &::selection {
+        color: #fff;
+    }
+}

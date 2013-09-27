@@ -1,0 +1,20 @@
+code {
+    background: $c-border;
+}
+
+blockquote {
+    padding: 0 em($baseLineHeight * 3) 0 em($baseLineHeight * 2);
+    border-left: 5px solid $c-lightBlue;
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            padding: 0 em($baseLineHeight * 2) 0 em($baseLineHeight * 1);
+        }
+    }
+}
+
+hr {
+    margin: 0 em($baseLineHeight * 3) em($baseLineHeight);
+    background: none;
+    border: 1px solid $c-border;
+}

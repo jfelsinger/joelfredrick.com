@@ -1,3 +1,13 @@
 @import "fonts";
 @import "syntax";
+
+@import "utilities/_global.scss";
+@import "utilities/_reset.scss";
+
 @import "main";
+
+@import "quarks/_headers.scss";
+@import "quarks/_images.scss";
+@import "quarks/_links.scss";
+@import "quarks/_lists.scss";
+@import "quarks/_paragraphs.scss";
