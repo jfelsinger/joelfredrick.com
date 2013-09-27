@@ -1,0 +1,21 @@
+.site-nav {
+    font-size: em(18px);
+    @include plainlinks;
+
+    position: absolute;
+    top: em($baseLineHeight * 2.5);
+    left: em($baseLineHeight) * 1.25;
+
+    @include prefix(text-shadow, 0 1px rgba(0,0,0,.32));
+
+    .current {
+        color: #e5e5e5;
+        @include plainlinks
+    }
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            position: static;
+        }
+    }
+}

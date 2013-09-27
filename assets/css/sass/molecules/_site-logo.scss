@@ -1,0 +1,24 @@
+.site-logo {
+    display: none !important; /* I hate this logo */
+
+    background: url('/images/logo.png') no-repeat top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+
+    @include prefix(filter, drop-shadow(1px 2px 0 rgba(0,0,0,.2)));
+
+    @media screen and (max-width: $break-width-small) {
+        & {
+            top: em($baseLineHeight);
+        }
+    }
+
+    @media screen and (max-width: $break-width-tiny) {
+        & {
+            display: none;
+        }
+    }
+}

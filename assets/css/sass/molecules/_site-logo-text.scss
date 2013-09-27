@@ -1,0 +1,12 @@
+.site-logo-text {
+    font-size: 4.236em;
+    line-height: 1;
+
+    @include plainlinks($c-title);
+
+    @media screen and (max-width: $break-width-tiny) {
+        & {
+            font-size: 2.618em;
+        }
+    }
+}
