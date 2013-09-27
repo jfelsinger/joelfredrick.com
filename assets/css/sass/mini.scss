@@ -4,7 +4,7 @@
 @import "utilities/_reset.scss";
 @import "utilities/_global.scss";
 
-
+/* quarks */
 @import "quarks/_headers.scss";
 @import "quarks/_images.scss";
 @import "quarks/_links.scss";
@@ -13,6 +13,7 @@
 @import "quarks/_selection.scss";
 @import "quarks/_misc.scss";
 
+/* atoms */
 @import "atoms/_display-text.scss";
 @import "atoms/_media.scss";
 @import "atoms/_highlight.scss";
@@ -26,6 +27,7 @@
 @import "atoms/_post-summary.scss";
 @import "atoms/_post-time.scss";
 
+/* molecules */
 @import "molecules/_site-header.scss";
 @import "molecules/_site-nav.scss";
 @import "molecules/_site-logo-text.scss";
