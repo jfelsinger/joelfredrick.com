@@ -17,7 +17,8 @@ $(document).ready(function() {
         fontRatio   : 44
     });
 
-    $(".button-expand").click(function() {
+    $(".button-expand").click(function(e) {
+        e.preventDefault();
         var container = $(this).parents(".post");
         var slider = container.find(".toggle-slider");
         if (slider.is(".toggle-slider--hidden")) {
