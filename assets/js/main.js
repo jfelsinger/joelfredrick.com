@@ -18,13 +18,14 @@ $(document).ready(function() {
     });
 
     $(".button-expand").click(function() {
-        var content = $(this).siblings(".post-content");
-        if (content.is(".post-content--hidden")) {
+        var container = $(this).parents(".post");
+        var slider = container.find(".toggle-slider");
+        if (slider.is(".toggle-slider--hidden")) {
             $(this).addClass("button-expand--open");
-            content.removeClass("post-content--hidden");
+            slider.removeClass("toggle-slider--hidden");
         } else {
             $(this).removeClass("button-expand--open");
-            content.addClass("post-content--hidden");
+            slider.addClass("toggle-slider--hidden");
         }
     });
 });
