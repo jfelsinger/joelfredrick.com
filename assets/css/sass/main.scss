@@ -401,7 +401,7 @@ h3 {
     text-indent: -9999px; /* Hide the actual text */
     width: 80px;
     height: 60px;
-    margin: 0 0 0 em($baseLineHeight);
+    margin: em($baseLineHeight) 0 0 em($baseLineHeight);
     background: url('/images/post-buttons--standard.png') no-repeat center center;
     display: block;
     position: relative;
