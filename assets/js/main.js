@@ -1,11 +1,10 @@
 $(document).ready(function() {
     $('body').flowtype({
         minimum     : 500,
-        maximum     : 960,
         minFont     : 14,
-        maxFont     : 18,
+        maxFont     : 20,
 
-        fontRatio   : 38
+        fontRatio   : 40
     });
 
     $('.span-bar.blue-texture').flowtype({
