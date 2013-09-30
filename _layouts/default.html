@@ -15,61 +15,63 @@
 
 </head>
 <body>
-    <div class="hidden">
-        <img src='/images/post-buttons--hover.png'>
-        <img src='/images/post-buttons--standard.png'>
-        <img src='/images/post-buttons--gray.png'>
-        <img src='/images/post-buttons--active.png'>
-    </div>
+    <div class="scroll-fix">
+        <div class="hidden">
+            <img src='/images/post-buttons--hover.png'>
+            <img src='/images/post-buttons--standard.png'>
+            <img src='/images/post-buttons--gray.png'>
+            <img src='/images/post-buttons--active.png'>
+        </div>
 
-    <div class="site-wrapper">
-        <header class="site-header clear-fix">
-            <img class="site-logo right" src="/images/transparent.gif" width="106" height="103">
-            <h2 class="site-logo-text"><a href="/index.html">Joel Felsinger</a></h2>
+        <div class="site-wrapper">
+            <header class="site-header clear-fix">
+                <img class="site-logo right" src="/images/transparent.gif" width="106" height="103">
+                <h2 class="site-logo-text"><a href="/index.html">Joel Felsinger</a></h2>
 
-            <nav class="nav site-nav">
-                <a href="/index.html" class="menuItem current">Home</a> -
-                <a href="/about.html" class="menuItem">About</a> -
-                <a href="/contact.html" class="menuItem">Contact</a>
-            </nav>
-        </header>
-
-        <section class="span-bar span-bar--blue-texture">
-            {% if page.index %}
-            <p class="display-text display-text--no-hide">I Love the Web!</p>
-            <p class="display-text display-text--indented">I love making things awesome!</p>
-            <p class="display-text">And I love sharing it!</p>
-            {% else %}
-            <p class="display-text display-text--no-hide a-center">&lt;3</p>
-            {% endif %}
-        </section>
-
-        <section class="mainContent">
-
-            {{ content }}
-
-        </section><!-- #mainContent -->
-
-        <footer class="site-footer">
-            <section class="span-bar site-footer__span-bar span-bar--gray-solid">
-                <nav class="nav left">
-                    <a href="/index.html" class="menuItem faded">Home</a> -
-                    <a href="/about.html" class="menuItem faded">About</a> -
-                    <a href="/contact.html" class="menuItem faded" title="Get in touch with me">Contact</a>
+                <nav class="nav site-nav">
+                    <a href="/index.html" class="menuItem current">Home</a> -
+                    <a href="/about.html" class="menuItem">About</a> -
+                    <a href="/contact.html" class="menuItem">Contact</a>
                 </nav>
+            </header>
 
-                <p class="social right a-right"><span class="faded">Follow on:</span> <a href="http://twitter.com/JFelsinger">Twitter</a><!-- &sdot; <a href="#">RSS</a>--></span>
+            <section class="span-bar span-bar--blue-texture">
+                {% if page.index %}
+                <p class="display-text display-text--no-hide">I Love the Web!</p>
+                <p class="display-text display-text--indented">I love making things awesome!</p>
+                <p class="display-text">And I love sharing it!</p>
+                {% else %}
+                <p class="display-text display-text--no-hide a-center">&lt;3</p>
+                {% endif %}
             </section>
 
-            <p class="copyright faded">
-                <small>Copyright &copy; 2013 Joel Felsinger</small>
-            </p>
-        </footer>
-    </div>
+            <section class="mainContent">
 
-    <!-- FlowType.js -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="/assets/js/flowType/flowtype.js" type="text/javascript"></script>
-    <script src="/assets/js/main.js" type="text/javascript"></script>
+                {{ content }}
+
+            </section><!-- #mainContent -->
+
+            <footer class="site-footer">
+                <section class="span-bar site-footer__span-bar span-bar--gray-solid">
+                    <nav class="nav left">
+                        <a href="/index.html" class="menuItem faded">Home</a> -
+                        <a href="/about.html" class="menuItem faded">About</a> -
+                        <a href="/contact.html" class="menuItem faded" title="Get in touch with me">Contact</a>
+                    </nav>
+
+                    <p class="social right a-right"><span class="faded">Follow on:</span> <a href="http://twitter.com/JFelsinger">Twitter</a><!-- &sdot; <a href="#">RSS</a>--></span>
+                </section>
+
+                <p class="copyright faded">
+                    <small>Copyright &copy; 2013 Joel Felsinger</small>
+                </p>
+            </footer>
+        </div>
+
+        <!-- FlowType.js -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="/assets/js/flowType/flowtype.js" type="text/javascript"></script>
+        <script src="/assets/js/main.js" type="text/javascript"></script>
+    </div><!--scroll fix-->
 </body>
 </html>
