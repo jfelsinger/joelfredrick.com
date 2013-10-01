@@ -8,11 +8,6 @@
 
     @include prefix(text-shadow, 0 1px rgba(0,0,0,.32));
 
-    .current {
-        color: #e5e5e5;
-        @include plainlinks
-    }
-
     a {
         padding: .5em 0;
     }
