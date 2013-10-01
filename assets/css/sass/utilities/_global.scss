@@ -85,6 +85,14 @@ $break-width-tiny: 480px;
     @include plainlinks(inherit);
 }
 
+.inherit-color {
+    &,
+    &:link,
+    &:visited {
+        color: inherit;
+    }
+}
+
 .hidden {
     display: none;
 }

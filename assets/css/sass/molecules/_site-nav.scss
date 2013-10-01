@@ -13,9 +13,11 @@
         @include plainlinks
     }
 
+    a {
+        padding: .5em 0;
+    }
+
     @media screen and (max-width: $break-width-small) {
-        & {
-            position: static;
-        }
+        position: static;
     }
 }
