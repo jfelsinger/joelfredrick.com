@@ -8,6 +8,6 @@ title: Contact
 If you're looking to get in contact with me, then just send me an
 email at <a href="&#x6D;&#97;&#105;&#x6C;&#116;&#x6F;:&#106;&#111;&#x65;&#108;&#64;&#x6A;&#x6F;&#x65;&#108;&#102;r&#101;&#x64;&#x72;&#x69;&#x63;&#x6B;&#46;&#99;&#111;&#109;">&#106;&#111;&#x65;&#108;&#64;&#x6A;&#x6F;&#x65;&#108;&#102;r&#101;&#x64;&#x72;&#x69;&#x63;&#x6B;&#46;&#99;&#111;&#109;</a>.
 
-##Other places I'm at
+<h2 class=delta>Other places I'm at</h2>
 
 I can also be found on [Twitter](http://twitter.com/JFelsinger), [LinkedIn](http://www.linkedin.com/pub/joel-felsinger/3b/3a5/5a9/), and [Github](http://github.com/jfelsinger) if you want to follow what I'm up to.
