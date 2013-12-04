@@ -1,5 +1,6 @@
 /* base */
 .toggle-slider {
+    position: relative;
     max-height: em($baseLineHeight * 22); /* Arbitrary number of lines to show */
     overflow: hidden;
 
@@ -9,4 +10,23 @@
     .toggle-slider--hidden {
         max-height: 0;
         display: block;
+    }
+
+    .toggle-slider__overlay {
+        color: #fff;
+        padding: 0 em($baseLineHeight);
+        background: $c-lightBlue;
+        position: absolute;
+        bottom: 0;
+        right: em($baseLineHeight);
+
+        @include prefix(text-shadow, 0 1px $c-darkBlue);
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+            text-decoration: none;
+            background: $c-lighterBlue;
+        }
     }
