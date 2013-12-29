@@ -18,8 +18,8 @@ $c-logo: #e5e5e5;
 $c-title: #2e2e2e;
 $c-postTitle: #3e3e3e;
 
-$c-lighterBlue: #a1d7e7;
-$c-lightBlue: #8Bd0e4;
+$c-lighterBlue: #81dcf7;
+$c-lightBlue: #8bd0e4;
 $c-darkBlue: #5496a8;
 
 $c-lightGray: #fafafa;
@@ -135,6 +135,6 @@ body {
     hgroup,
     ul,ol,dd,
     p, figure, blockquote,
-    pre,table,fieldset,hr{
+    table, fieldset, hr {
         margin-bottom: em($baseLineHeight);
     }
