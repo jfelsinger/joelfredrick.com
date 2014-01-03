@@ -1,3 +1,3 @@
 [submodule "assets/js/flowType"]
 	path = assets/js/flowType
-	url = git@github.com:simplefocus/FlowType.JS.git
+	url = https://github.com/simplefocus/FlowType.JS.git
