@@ -452,7 +452,10 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #27a6c9;
-    text-decoration: underline; }
+    text-decoration: underline;
+    outline: none; }
+  a:active {
+    outline: none; }
   a::selection {
     color: #fff; }
 

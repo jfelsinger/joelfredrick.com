@@ -6,8 +6,10 @@ a {
     &:focus {
         color: #27a6c9;
         text-decoration: underline;
+        outline: none;
     }
     &:active {
+        outline: none;
     }
 
     &::selection {
