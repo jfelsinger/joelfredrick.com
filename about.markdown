@@ -24,6 +24,6 @@ are really awesome.
 
 ####[Jekyll](http://jekyllrb.com)
 
-First entry? Jekyll. It'ss a cool tool for creating content-driven websites, 
+First entry? Jekyll. It's a cool tool for creating content-driven websites, 
 blogs, or whatever without the need for a database or some complex server-side 
 setup. It's really neat, and what I'm using for the blog on this site.
