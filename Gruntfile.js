@@ -13,12 +13,23 @@ module.exports = function(grunt) {
             }
         },
 
+        watch: {
+            css: {
+                files: 'assets/css/_sass/**',
+                tasks: ['sass'],
+                options: {
+                    spawn: false
+                }
+            }
+        },
+
         jekyll: {
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-jekyll');
 
-    grunt.registerTask('default', ['sass:dist']);
+    grunt.registerTask('default', ['sass', 'watch']);
 }
