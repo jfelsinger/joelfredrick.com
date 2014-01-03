@@ -50,7 +50,7 @@ layout: default
             </p>
         </noscript>
         {% else %}
-        <p class="post-time">Posted on <time datetime="2013-09-03" pubdate>09.03.2013</time></p>
+        <p class="post-time">Posted on <time datetime="page.date" pubdate>{{ page.date | date_to_long_string}}</time></p>
         {% endif %}
     </footer>
 </article>
