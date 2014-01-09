@@ -1,7 +1,7 @@
 /* base */
 .highlight {
     margin-bottom: em($baseLineHeight);
-    padding: em($baseLineHeight);
+    padding: 0 em($baseLineHeight);
     border: 1px solid $c-borderDark;
     background: $c-border;
     clear: both;
