@@ -109,3 +109,4 @@ not try it out with ls?
 $ ls --help
 ```
 
+[Next: How to get around](/2014/1/Toolin-around-the-terminal/)
