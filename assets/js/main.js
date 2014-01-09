@@ -2,9 +2,9 @@ $(document).ready(function() {
     $('body').flowtype({
         minimum     : 500,
         minFont     : 14,
-        maxFont     : 20,
+        maxFont     : 18,
 
-        fontRatio   : 40
+        fontRatio   : 60
     });
 
     $('.span-bar.blue-texture').flowtype({
