@@ -5,12 +5,10 @@ title: About
 
 #About
 
-##Hey there,
-
-Welcome to the site. I'm a developer in the rainy land of Southwest Florida. 
-I'm a programmer, a bit of a designer, and a guy who really likes the web.
-I love **CSS** and **HTML**. They are my weapons of choice and what I'll be 
-talking about the most on this blog, but don't be surprised to see articles 
+Hey there, Welcome to the site. I'm a developer in the rainy land of Southwest 
+Florida.  I'm a programmer, a bit of a designer, and a guy who really likes the 
+web.  I love **CSS** and **HTML**. They are my weapons of choice and what I'll 
+be talking about the most on this blog, but don't be surprised to see articles 
 on **VIM**, **Linux**, or whatever else. There is a lot out there to talk 
 about.
 
