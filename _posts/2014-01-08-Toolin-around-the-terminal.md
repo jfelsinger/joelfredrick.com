@@ -2,6 +2,7 @@
 layout: post
 title:  "Toolin' around the terminal"
 date:   2014-01-08 20:00:00
+comments: false
 categories: console tutorial terminal linux unix
 
 ---

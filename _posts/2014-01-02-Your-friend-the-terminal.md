@@ -2,7 +2,9 @@
 layout: post
 title:  "Your friend, the terminal"
 date:   2014-01-02 17:47:00
+comments: false
 categories: console tutorial terminal linux unix
+
 # navigation: true
 # 
 # navigation_links:
