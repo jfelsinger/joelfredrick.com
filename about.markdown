@@ -12,6 +12,27 @@ from asp.net to node.js. I love the web as a platform and could argue best
 practices all day. I also love to hear from people, so
 [send me a line](/contact.html) some time.
 
+If you're looking for a list of buzz words that I jive with, here's some of my 
+favorites:
+
+* Html5
+* Css3
+* Accessibility
+* C# and Asp.Net
+* Node
+* JavaScript
+* Linux
+* Lamp
+* MEAN
+* SEO
+
+
+##Hire Me
+
+If you want to hire me, [let me know](/contact.html). I do general development
+with a focus on the web. So if you need a website, a web server, or web application
+made and maintained I'd love to hear from you. 
+
 
 ##Things I like
 
