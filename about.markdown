@@ -15,16 +15,23 @@ practices all day. I also love to hear from people, so
 If you're looking for a list of buzz words that I jive with, here's some of my 
 favorites:
 
-* Html5
-* Css3
-* Accessibility
-* C# and Asp.Net
-* Node
-* JavaScript
-* Linux
-* Lamp
-* MEAN
-* SEO
+<div class="grid">
+    <ul class="grid__item  one-half">
+        <li>Html5</li>
+        <li>Css3</li>
+        <li>Accessibility</li>
+        <li>C# and Asp.Net</li>
+        <li>Node</li>
+    </ul><!--
+
+ --><ul class="grid__item  one-half">
+        <li>JavaScript</li>
+        <li>Linux</li>
+        <li>Lamp</li>
+        <li>MEAN</li>
+        <li>SEO</li>
+    </ul>
+</div>
 
 
 ##Hire Me
