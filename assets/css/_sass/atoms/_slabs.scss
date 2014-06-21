@@ -1,0 +1,44 @@
+/*-------------------------------------*\
+    $SLABS
+\*-------------------------------------*/
+
+/**
+ * Slabs
+ *
+ * - Styles
+ * - Implementation
+ *
+    
+ *
+ * slab--name
+ *
+ */
+
+
+/*---  Styles  ---*/
+
+%slab {
+}
+
+    %slab--gray--light {
+        @extend %slab !optional;
+
+        background: $c-gray--light;
+    }
+
+
+
+
+
+/*---  Implementation  ---*/
+
+.slab { @extend %slab !optional; }
+
+    .slab--gray--light { 
+        @extend %slab--gray--light;
+    }
+
+
+
+
+

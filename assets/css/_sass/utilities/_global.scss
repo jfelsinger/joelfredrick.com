@@ -6,36 +6,9 @@
  *
  */
 
-$c-bg: #fff;
-$c-text: #000;
-
-$f-openSans: 'Open Sans', 'OpenSans', verdana, sans-serif;
-$f-ptSans: 'PT Sans';
-$f-ptCap: 'PT Serif Caption', 'PTSerif-Caption';
-$f-inconsolata: 'Inconsolata', Inconsolata, Consolas, monospace;
-
-
-$c-logo: #e5e5e5;
-$c-title: #2e2e2e;
-$c-postTitle: #3e3e3e;
-
-$c-lighterBlue: #81dcf7;
-$c-lightBlue: #8bd0e4;
-$c-darkBlue: #5496a8;
-
-$c-lightGray: #fafafa;
-
-$c-footer: #fff1ad;
-
-$c-border: #e6e6e6;
-$c-borderDark: #c9c9c9;
-
 $baseSize: 16px;
 $baseLineHeight: 16px * 1.618;
 $maxSiteWidth: 960px;
-
-$break-width-small: 630px;
-$break-width-tiny: 480px;
 
 @function em($px, $base: $baseSize) {
     @return ($px / $base) * 1em;

@@ -1,0 +1,46 @@
+/*-------------------------------------*\
+    $FONTS
+\*-------------------------------------*/
+
+/**
+ * Fonts
+ *
+ * - Font-Face Declarations
+ * - Font Stacks
+ *
+    
+ *
+ */
+
+
+/*-------------------------------------*\
+    Font-Face Declarations
+\*-------------------------------------*/
+
+/* Entypo */
+@font-face {
+    font-family: 'entypo';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/Entypo/entypo.eot");
+    src: local('©'),
+         url("/assets/fonts/Entypo/entypo.woff") format("woff"),
+         url("/assets/fonts/Entypo/entypo.ttf") format("truetype"),
+         url("/assets/fonts/Entypo/entypo.svg#") format("svg");
+}
+
+
+
+
+
+/*-------------------------------------*\
+    Font Stacks
+\*-------------------------------------*/
+
+$f-openSans: 'Open Sans', 'OpenSans', verdana, sans-serif;
+
+$f-ptSans: 'PT Sans';
+
+$f-ptCap: 'PT Serif Caption', 'PTSerif-Caption';
+
+$f-inconsolata: 'Inconsolata', Inconsolata, Consolas, monospace;

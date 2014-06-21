@@ -1,0 +1,29 @@
+/*-------------------------------------*\
+    $BREAKPOINTS
+\*-------------------------------------*/
+
+/**
+ * Breakpoints
+ *
+ * - Aliases
+ * 
+ *
+    
+ *
+ * [An object/file scopped breakpoint]
+ * bp-name
+ *
+ * [A global breakpoint]
+ * gbp-name
+ *
+ */
+
+$gbp-small:     630px;
+$gbp-tiny:      480px;
+
+
+/*---  Aliases  ---*/
+
+$break-width-small: $gbp-small;
+$break-width-tiny: $gbp-tiny;
+

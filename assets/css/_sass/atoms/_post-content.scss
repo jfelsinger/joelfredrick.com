@@ -4,6 +4,6 @@
 
 /* isotopes */
 .post-content--preview {
+    @extend %slab--gray--light;
     padding: em($baseLineHeight);
-    background: $c-lightGray;
 }

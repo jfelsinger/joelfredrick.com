@@ -1,4 +1,21 @@
-a {
+/*-------------------------------------*\
+    $LINKS
+\*-------------------------------------*/
+
+/**
+ * Links
+ *
+ * - Styles
+ * - Implementation
+ *
+    
+ *
+ */
+
+
+/*---  Styles  ---*/
+
+%link {
     color: $c-darkBlue;
     text-decoration: none;
 
@@ -16,3 +33,36 @@ a {
         color: #fff;
     }
 }
+
+@mixin plain-link($color: inherit) { 
+    &,
+    &:link,
+    &:visited {
+        color: $color;
+        text-decoration: none;
+    }
+}
+
+@mixin plainlinks($color: inherit) { 
+    a { @include plain-link($color); }
+}
+
+%link--plain {
+    @include plain-link();
+}
+
+
+
+
+
+/*---  Implementation  ---*/
+
+a, 
+.link { 
+    @extend %link; 
+}
+
+/*a*/.link--plain { 
+    @extend %link--plain; 
+}
+    .plain-links { @include plainlinks(); }
