@@ -4,7 +4,7 @@
     max-height: em($baseLineHeight * 22); /* Arbitrary number of lines to show */
     overflow: hidden;
 
-    @include prefix(transition, (max-height 1.5s));
+    @include prefix(transition, (max-height 1.2s));
 }
 
     .toggle-slider--hidden {

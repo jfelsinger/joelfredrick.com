@@ -28,15 +28,6 @@ $maxSiteWidth: 960px;
     }
 }
 
-@mixin plainlinks($color: #000) {
-    a,
-    a:link,
-    a:visited {
-        color: $color;
-        text-decoration: none;
-    }
-}
-
 @mixin clearfix { /* beat that clearfix, thanks css-101 */
     &:after {
         content: "";
@@ -56,9 +47,6 @@ $maxSiteWidth: 960px;
 .a-center { text-align: center; }
 .clear-fix { @include clearfix; }
 
-.plain-links {
-    @include plainlinks(inherit);
-}
 
 .inherit-color {
     &,
