@@ -7,9 +7,9 @@ title: About
 
 Hey there, Welcome to the site. I'm a developer, writer, and self-proclaimed
 cool dude living in the Florida panhandle. I've been working with the web and
-related technologies for two years, and have gotten my hands dirty in everything
-from asp.net to node.js. I love the web as a platform and could argue best
-practices all day. I also love to hear from people, so
+related technologies for a little over two years now, and have gotten my hands 
+dirty in everything from asp.net to node.js. I love the web as a platform 
+and could debate best practices all day. I also love to hear from people, so
 [send me a line](/contact.html) some time.
 
 #### My Skills
@@ -67,14 +67,14 @@ practices all day. I also love to hear from people, so
 </ul>
 
 
-##Hire Me
+##Hiring Me
 
-If you want to hire me, [let me know](/contact.html). I do general development
+If you want to hire me, just [let me know](/contact.html). I do general development
 with a focus on the web. So if you need a website, a web server, or web application
 made and maintained I'd love to hear from you. 
 
 
-##Things I like
+##Other Things I like
 
 I pretty much don't care what anyone says, you can't stop me from sharing 
 all this cool stuff that I love. So here are just a couple of things/places 
@@ -96,5 +96,5 @@ styles. A framework after my own heart. Thank you
 
 ####[Venm](https://github.com/jfelsinger/generator-venm)
 
-A [Yeoman](http://yeoman.io/) generator that I wrote as an alternative to the 
-MEAN stack. This one replaces Angular with Vue, because I think Vue is awesome.
+A [Yeoman](http://yeoman.io/) generator that I threw together as an alternative to 
+the MEAN stack. This one replaces Angular with Vue, because I think Vue is awesome.
