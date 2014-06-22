@@ -59,20 +59,7 @@
 
             @include prefix(border-radius, 2px);
 
-            &:before {
-                content: "";
-                width: 0;
-                height: 100%;
-                background: $c-blue--dark;
-                display: block;
-                position: absolute;
-                top: 0;
-                left: 0;
-
-                @include prefix(transition, width 1.2s);
-
-                @include prefix(border-radius, 2px);
-            }
+            @include prefix(transition, background 1.2s);
         }
 
 
@@ -85,8 +72,8 @@
         @extend %skill-list__item !optional;
 
         &:hover {
-            .skill-list__rating:before {
-                width: 100%;
+            .skill-list__rating {
+                background: $c-blue--dark;
             }
         }
     }
