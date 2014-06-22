@@ -12,73 +12,20 @@ dirty in everything from asp.net to node.js. I love the web as a platform
 and could debate best practices all day. I also love to hear from people, so
 [send me a line](/contact.html) some time.
 
-#### My Skills
-
-<ul class="skill-list  two-thirds  portable--one-whole">
-    <li>
-        <span class="skill-list__name">Html</span>
-        <i class="skill-list__rating  nine-tenths">9/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">Css</span>
-        <i class="skill-list__rating  nine-tenths">9/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">JavaScript</span>
-        <i class="skill-list__rating  nine-tenths">9/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">C# and Asp.Net</span>
-        <i class="skill-list__rating  eight-tenths">8/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">Linux</span>
-        <i class="skill-list__rating  nine-tenths">9/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">LAMP Stack</span>
-        <i class="skill-list__rating  eight-tenths">8/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">MEAN Stack</span>
-        <i class="skill-list__rating  eight-tenths">8/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">Node</span>
-        <i class="skill-list__rating  nine-tenths">9/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">SEO</span>
-        <i class="skill-list__rating  seven-tenths">7/10</i>
-    </li>
-
-    <li>
-        <span class="skill-list__name">Accessibility</span>
-        <i class="skill-list__rating  six-tenths">6/10</i>
-    </li>
-</ul>
-
 
 ##Hiring Me
 
-If you want to hire me, just [let me know](/contact.html). I do general development
-with a focus on the web. So if you need a website, a web server, or web application
-made and maintained I'd love to hear from you. 
+If you want to hire me just [let me know](/contact.html), or just check out 
+[my resume](/resume.html). I do general development with a focus on the web. So 
+if you need a web site, web application, or server made and/or maintained I'd
+love to hear from you.
 
 
 ##Other Things I like
 
 I pretty much don't care what anyone says, you can't stop me from sharing 
-all this cool stuff that I love. So here are just a couple of things/places 
-that I think are really awesome.
+all this cool stuff that I love and plastering it here. So here are just a 
+couple of things/places that I think are really awesome.
 
 
 ####[Jekyll](http://jekyllrb.com)

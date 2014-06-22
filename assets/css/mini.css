@@ -1645,7 +1645,7 @@ small {
     display: block;
     background: #e6e6e6;
     position: absolute;
-    top: .6em;
+    top: 0.75em;
     left: 0;
     z-index: -1;
     -webkit-border-radius: 2px;
@@ -1663,7 +1663,7 @@ small {
   background: #8bd0e4;
   display: block;
   position: absolute;
-  top: .6em;
+  top: 0.75em;
   left: 0;
   z-index: -1;
   -webkit-border-radius: 2px;
