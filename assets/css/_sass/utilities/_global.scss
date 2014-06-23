@@ -93,6 +93,9 @@ body {
         overflow: hidden;
     }
 
+    .print__only {
+        display: none !important;
+    }
 
     hgroup,
     ul,ol,dd,

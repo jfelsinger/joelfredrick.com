@@ -10,13 +10,22 @@
  */ 
  
 %print__hidden {
-    display: none;
+    display: none !important;
 }
 
-.span-bar,
-footer,
-nav,
-.print__hide,
-.print__hidden {
-    @extend %print__hidden;
+    .span-bar,
+    footer,
+    nav,
+    .print__hide,
+    .print__hidden {
+        @extend %print__hidden;
+    }
+
+
+%print__only {
+    display: block !important;
 }
+
+    .print__only {
+        @extend %print__only;
+    }

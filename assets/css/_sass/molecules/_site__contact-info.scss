@@ -1,0 +1,9 @@
+.site__contact-info {
+    padding-left: $baseLineHeight/2; 
+    position: absolute;
+    top: 16px;
+    // right: $baseLineHeight;
+    right: 0;
+
+    border-left: 1px solid $c-border;
+}

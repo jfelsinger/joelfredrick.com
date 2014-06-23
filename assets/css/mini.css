@@ -533,6 +533,9 @@ body {
   width: 100%;
   overflow: hidden; }
 
+.print__only {
+  display: none !important; }
+
 hgroup,
 ul, ol, dd,
 p, figure, blockquote,
@@ -1434,10 +1437,6 @@ small {
 .smaller {
   font-size: .675em; }
 
-.light {
-  font-weight: 200;
-  opacity: .8; }
-
 /* atoms */
 /*-------------------------------------*\
     $SLABS
@@ -1775,6 +1774,13 @@ small {
 
 .site-footer__span-bar {
   line-height: 0; }
+
+.site__contact-info {
+  padding-left: 12.944px;
+  position: absolute;
+  top: 16px;
+  right: 0;
+  border-left: 1px solid #e6e6e6; }
 
 /* organisms */
 /* pages */

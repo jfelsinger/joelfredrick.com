@@ -32,10 +32,3 @@ small {
 }
 
     .smaller { font-size: .675em; }
-
-%light {
-    font-weight: 200;
-    opacity: .8;
-}
-
-    .light { @extend %light; }

@@ -12,4 +12,7 @@ footer,
 nav,
 .print__hide,
 .print__hidden {
-  display: none; }
+  display: none !important; }
+
+.print__only {
+  display: block !important; }
