@@ -1,2 +1,19 @@
 ol, ul { list-style-position: inside; }
 
+.list--one-line {
+    li {
+        display: inline;
+    }
+}
+
+.list--comma {
+    li {
+        &:after {
+            content: ",";
+        }
+
+        &:last-of-type:after {
+            content: "";
+        }
+    }
+}
