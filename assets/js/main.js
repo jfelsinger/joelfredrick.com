@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    /*
     $('body').flowtype({
         minimum     : 500,
         minFont     : 14,
@@ -15,6 +16,7 @@ $(document).ready(function() {
 
         fontRatio   : 44
     });
+    */
 
     $(".button-expand").click(function(e) {
         e.preventDefault();
