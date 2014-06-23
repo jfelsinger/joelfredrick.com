@@ -16,19 +16,19 @@ confident that I can solve any problem thrown at me in a scalable and maintainab
 ##### Developer
 
 <p class="one-line">
-    <small class="smaller  faded">2013-2014 at Deerso Inc.</small>
+    <small class="faded">2013-2014 at Deerso Inc.</small>
 </p>
 
-Front-end web development for internal and external sites, along with general C# and
+Full-stack web development for internal and external sites, along with general C# and
 Asp.Net application development.
 
 ##### Web Developer/Designer
 
 <p class="one-line">
-    <small class="smaller  faded">2012-2013 at Synergy Networks</small>
+    <small class="faded">2012-2013 at Synergy Networks</small>
 </p>
 
-Web design and front-end development including back-end development with PHP.
+Web design and front-end development, including back-end development with PHP.
 
 
 ### Skills
@@ -84,6 +84,7 @@ Web design and front-end development including back-end development with PHP.
             <li>Writing</li>
             <li>Bash</li>
             <li>Vim</li>
+            <li>Database Design</li>
         </ul>
     </div>
 </div>
