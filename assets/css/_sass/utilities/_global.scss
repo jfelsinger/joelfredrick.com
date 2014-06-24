@@ -45,7 +45,8 @@ $maxSiteWidth: 960px;
 .a-left   { text-align: left;  }
 .a-right  { text-align: right; }
 .a-center { text-align: center; }
-.clear-fix { @include clearfix; }
+%clear-fix { @include clearfix; }
+.clear-fix { @extend %clear-fix; }
 
 
 .inherit-color {

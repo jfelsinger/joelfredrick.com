@@ -125,7 +125,6 @@ table {
   font-weight: 400;
   src: url("/assets/fonts/Entypo/entypo.eot");
   src: local("©"), url("/assets/fonts/Entypo/entypo.woff") format("woff"), url("/assets/fonts/Entypo/entypo.ttf") format("truetype"), url("/assets/fonts/Entypo/entypo.svg#") format("svg"); }
-
 /*-------------------------------------*\
     Font Stacks
 \*-------------------------------------*/
@@ -493,9 +492,9 @@ table {
 .a-center {
   text-align: center; }
 
-.clear-fix {
+.clear-fix, .skill-list__item {
   /* beat that clearfix, thanks css-101 */ }
-  .clear-fix:after {
+  .clear-fix:after, .skill-list__item:after {
     content: "";
     display: table;
     clear: both; }
@@ -1687,7 +1686,8 @@ small {
 
 .skill-list__name {
   padding-right: .5em;
-  background: white; }
+  background: white;
+  float: left; }
 
 .skill-list__rating {
   height: 2px;

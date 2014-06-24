@@ -27,6 +27,7 @@
 }
 
     %skill-list__item {
+        @extend %clear-fix;
         position: relative;
 
         &:before {
@@ -47,6 +48,7 @@
         %skill-list__name {
             padding-right: .5em;
             background: $c-bg;
+            float: left;
         }
 
         %skill-list__rating {
