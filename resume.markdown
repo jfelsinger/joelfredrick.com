@@ -71,7 +71,7 @@ Web design and front-end development, including back-end development with PHP.
         </li>
     </ul><!--
 
- --><div class="grid__item  one-half  palm--one-whole">
+ --><div class="grid__item  one-half  portable--one-whole">
 
          <small>Other Skills:</small>
 
