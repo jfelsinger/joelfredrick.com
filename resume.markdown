@@ -5,10 +5,10 @@ title: Resume
 
 <h1 class="print__hidden">Resume</h1>
 
-I'm a 22 year old web developer located in the sunny state of Florida. I'm a web developer
-with strong skills in both front-end and back-end development. I am just as much at home
-developing REST apis as I am creating CSS animations to help bring designs to life. I am
-confident that I can solve any problem thrown at me in a scalable and maintainable way.
+I'm a 22 year old web developer located in the sunny state of Florida. I have strong skills 
+in both front-end and back-end development, and am just as much at home developing REST apis 
+as I am creating CSS animations to help bring designs to life. Any problem thrown at me I
+am confident that I can solve in a scalable and maintainable way.
 
 
 ### Experience
