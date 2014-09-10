@@ -1,4 +1,5 @@
 .mainContent {
     min-height: 300px;
+    min-height: calc(100vh - (103px + 300px));
     margin-bottom: em($baseLineHeight);
 }

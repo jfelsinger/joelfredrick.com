@@ -10,38 +10,31 @@ cool dude living in the Florida panhandle. I've been working with the web and
 related technologies for a little over two years now, and have gotten my hands 
 dirty in everything from asp.net to node.js. I love the web as a platform 
 and could debate best practices all day. I also love to hear from people, so
-[send me a line](/contact.html) some time.
+[drop me a line](/contact.html) some time.
+
+
+##Services
+
+#### Design &amp; Development
+I specialize in user-centric design and development strategies meant 
+'ll for the real world. In other words, if it's on the web I'll make it 
+work for you, and I'll make it awesome.
+
+#### SEO &amp; Content Strategy
+I love the web, and I want to help you make it a better place. I'll 
+strategize with you to craft content that your users can't resist and 
+helps give you a presence that does the same.
+
+#### Mobile
+With over 55% internet usage coming through mobile devices, I know 
+how important your mobile presence is. I craft all of my sites and 
+web-applications with mobile devices in mind. All of my creations are 
+responsive from the start and tested thoroughly on multiple devices.
 
 
 ##Hiring Me
 
 If you want to hire me just [let me know](/contact.html), or just check out 
-[my resume](/resume.html). I do general development with a focus on the web. So 
-if you need a web site, web application, or server made and/or maintained I'd
-love to hear from you.
-
-
-##Other Things I like
-
-I pretty much don't care what anyone says, you can't stop me from sharing 
-all this cool stuff that I love and plastering it here. So here are just a 
-couple of things/places that I think are really awesome.
-
-
-####[Jekyll](http://jekyllrb.com)
-
-First entry? Jekyll. It's a cool tool for creating content-driven websites, 
-blogs, or whatever without the need for a database or some complex server-side 
-setup. It's really neat, and what I'm using for the blog on this site.
-
-####[Inuit CSS](https://github.com/csswizardry/inuit.css)
-
-Basically the only css framework that doesn't torment me with bloat. Inuit
-is built modularly on easy to follow conventions with no-frills, minimalistic
-styles. A framework after my own heart. Thank you 
-[Harry Roberts](http://csswizardry.com)!
-
-####[Venm](https://github.com/jfelsinger/generator-venm)
-
-A [Yeoman](http://yeoman.io/) generator that I threw together as an alternative to 
-the MEAN stack. This one replaces Angular with Vue, because I think Vue is awesome.
+[my resume](/resume.html). I do general development with a focus on the web
+and front-end technologies. So if you need a web site, web application, or 
+server made and/or maintained I'd love to hear from you.
