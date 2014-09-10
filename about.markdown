@@ -6,11 +6,11 @@ title: About
 #About
 
 Hey there, Welcome to the site. I'm a developer, writer, and self-proclaimed
-cool dude living in the Florida panhandle. I've been working with the web and
-related technologies for a little over two years now, and have gotten my hands 
-dirty in everything from asp.net to node.js. I love the web as a platform 
-and could debate best practices all day. I also love to hear from people, so
-[drop me a line](/contact.html) some time.
+cool dude living in sunny southwest Florida. I've been working with the web and
+related technologies for a little over three years now, and have gotten my hands 
+dirty in everything from asp.net to node.js. I love the web as a platform as 
+well as building awesome stuff on top of it. I also love to hear from people, so
+feel free to [drop me a line](/contact.html) some time.
 
 
 ##Services
