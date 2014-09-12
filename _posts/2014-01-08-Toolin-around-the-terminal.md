@@ -7,6 +7,11 @@ categories: console tutorial terminal linux unix
 
 ---
 
+<small>
+*Disclaimer*: If you aren't familiar with the terminal yet, you might want to
+[get introduced](/2014/1/Your-friend-the-terminal/) first.
+</small>
+
 We know where we are in the terminal, and we can examine our surroundings. The
 only thing we need to know now is how to get around. Luckily, most terminals
 have a number of really useful features to help you navigate. Not the least of
