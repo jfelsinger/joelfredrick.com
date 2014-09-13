@@ -106,3 +106,28 @@ body {
     }
 
     .one-line { margin-bottom: 0; }
+
+    .hidden--micro {
+        @media screen and (max-width: $gbp-micro) {
+            display: none;
+        }
+
+    }
+
+    .hidden--tiny {
+        @media screen and (max-width: $gbp-tiny) {
+            display: none;
+        }
+    }
+
+    .hidden--small {
+        @media screen and (max-width: $gbp-small) and (min-width: $gbp-tiny + 1) {
+            display: none;
+        }
+    }
+
+    .hidden--big {
+        @media screen and (min-width: $gbp-small + 1) {
+            display: none;
+        }
+    }
