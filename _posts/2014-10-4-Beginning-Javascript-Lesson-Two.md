@@ -292,9 +292,9 @@ with some challenges for you to try to this post, and after that here are some
 things for you to consider:
 
 <ul class="list--unordered">
-    <li>What happens if we try and concatenate a number with a string using the `+` operator?</li>
-    <li>What happens if we try the above with the other arithmetic operators, `-`, `*`, `/`, etc?</li>
-    <li>What happens when escaping something other than a `'` or a `"` in a string?</li>
+    <li>What happens if we try and concatenate a number with a string using the <code>+</code> operator?</li>
+    <li>What happens if we try the above with the other arithmetic operators, <code>-</code>, <code>*</code>, <code>/</code>, etc?</li>
+    <li>What happens when escaping something other than a <code>'</code> or a <code>"</code> in a string?</li>
 </ul>
 
 [Previous: Lesson 1](/2014/10/Beginning-Javascript-Lesson-One)
