@@ -14,10 +14,17 @@
 }
 
 .post-summary__links {
+    padding: 1em 0;
     border-bottom: 1px solid $c-borderDark;
 }
 
+    .post-summary__links:first-of-type,
+    .post-summary__links--first {
+        padding-top: 0;
+    }
+
     .post-summary__links:last-of-type,
     .post-summary__links--last {
+        padding-bottom: 0;
         border: none;
     }
