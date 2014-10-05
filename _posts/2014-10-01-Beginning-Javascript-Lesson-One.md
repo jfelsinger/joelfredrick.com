@@ -5,12 +5,15 @@ date:   2014-10-01
 comments: true
 categories: tutorial node javascript programming
 
-#navigation: true
-#
-#navigation_links
-#  - { name: Something, href: "#" }
-#
-# summary_links:
+navigation: true
+
+navigation_links:
+  - { name: Setup, href: "#gettingSetup" }
+  - { name: Hello World, href: "#helloWorld" }
+
+summary_links:
+  - { name: Node.js, href: "http://nodejs.org" }
+  - { name: Brackets, href: "http://brackets.io" }
 
 ---
 
@@ -34,7 +37,7 @@ C++ or C.
 This first post is to get you setup with some of the tools you'll need to make
 and then run your programs.
 
-<h2>Getting Setup</h2>
+<h2 id="gettingSetup">Getting Setup</h2>
 
 <h3 id="node">Node</h3>
 
