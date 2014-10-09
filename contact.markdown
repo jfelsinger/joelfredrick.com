@@ -13,4 +13,4 @@ I can't wait to hear from you.
 
 <h2 class=delta>Other places I'm at</h2>
 
-I can also be found on [Twitter](http://twitter.com/JFelsinger), [LinkedIn](http://www.linkedin.com/pub/joel-felsinger/3b/3a5/5a9/), and [Github](http://github.com/jfelsinger) if you want to follow what I'm up to.
+I can also be found on [Twitter](http://twitter.com/JFelsinger), [LinkedIn](http://www.linkedin.com/in/jfelsinger), and [Github](http://github.com/jfelsinger) if you want to follow what I'm up to.
