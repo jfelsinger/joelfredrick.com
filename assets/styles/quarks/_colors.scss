@@ -32,6 +32,20 @@
     Base Colors
 \*-------------------------------------*/
 
+/*---   Blues   ---*/
+
+$c-blue--light:     #81dcf7; 
+$c-blue:            #8bd0e4; 
+$c-blue--dark:      #5496a8; 
+
+$c-blue--bright:    #27a6c9;
+
+
+
+/*---   Grays   ---*/
+
+$c-gray--light:     #fafafa;
+
 
 
 
@@ -40,8 +54,20 @@
     Site Colors
 \*-------------------------------------*/
 
-$c-text:   #000; 
-$c-body:   #fff; 
+$c-body:        #fff; 
+$c-text:        #000;
+
+$c-selection:   #fff;
+$c-selection__bg:   #ff8699;
+
+$c-logo:        #e5e5e5;
+$c-title:       #2e2e2e;
+$c-post__title: #3e3e3e;
+
+$c-footer:      #fff1ad;
+
+$c-border:          #e6e6e6;
+$c-border--dark:    #c9c9c9;
  
 
 

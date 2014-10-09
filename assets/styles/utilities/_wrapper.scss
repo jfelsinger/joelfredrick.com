@@ -19,6 +19,11 @@
 %wrapper {
     text-align: left;
     max-width: $max-site-width;
+    padding-left: unit(2);
+    padding-right: unit(2);
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
 }
 
 

@@ -1,14 +1,12 @@
 /*-------------------------------------*\
-    SELECTIONS
+    POST CONTENT
 \*-------------------------------------*/
 
 /**
- * Selections 
- * 
- * 
+ * Post Content
  * 
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
  * 
@@ -16,13 +14,10 @@
  * 
  */ 
 
-%selection {
-    color: $c-selection;
-    background: $c-selection__bg;
 
-    text-shadow: none;
+%post-content {
 }
- 
+
 
 
 
@@ -30,6 +25,11 @@
 /*-------------------------------------*\
     Isotopes
 \*-------------------------------------*/
+
+%post-content--preview {
+    @extend %slab--gray--light;
+    padding: unit();
+}
 
 
 
@@ -39,10 +39,5 @@
     Implementation
 \*-------------------------------------*/
 
-::selection { @extend %selection !optional; }
-.selection  { @extend %selection !optional; }
-
-
-
-
-
+.post-content { @extend %post-content !optional; }
+.post-content--preview { @extend %post-content--preview !optional; }

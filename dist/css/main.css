@@ -362,7 +362,8 @@ input {
 /* line 332, bower_components/inuit-normalize/_generic.normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -389,7 +390,6 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -896,14 +896,12 @@ html {
  */
 /* line 11, bower_components/inuit-box-sizing/_generic.box-sizing.scss */
 html {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* line 19, bower_components/inuit-box-sizing/_generic.box-sizing.scss */
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
@@ -1079,7 +1077,8 @@ html {
   padding-right: 51.776px;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
 }
 
 /*-------------------------------------*\
@@ -2361,6 +2360,9 @@ a:hover, .link:hover, a:active, .link:active, a:focus, .link:focus {
   outline: none;
 }
 /* line 31, atoms/_links.scss */
+a::-moz-selection, .link::-moz-selection {
+  color: white;
+}
 a::selection, .link::selection {
   color: white;
 }
@@ -2522,6 +2524,11 @@ a::selection, .link::selection {
  * 
  */
 /* line 19, atoms/_selections.scss */
+::-moz-selection, .selection {
+  color: white;
+  background: #ff8699;
+  text-shadow: none;
+}
 ::selection, .selection {
   color: white;
   background: #ff8699;
@@ -2638,7 +2645,8 @@ a::selection, .link::selection {
   top: calc(50% - 60px/2);
   right: 0;
   z-index: 2;
-  transition: background 200ms;
+  -webkit-transition: background 200ms;
+          transition: background 200ms;
 }
 /* line 34, molecules/_button-expand.scss */
 .button-expand:hover, .button-expand:focus {
@@ -2719,10 +2727,16 @@ a::selection, .link::selection {
   clear: both;
 }
 /* line 23, molecules/_highlight.scss */
+.highlight ::-moz-selection {
+  background: #bbf1ff;
+}
 .highlight ::selection {
   background: #bbf1ff;
 }
 /* line 27, molecules/_highlight.scss */
+.highlight .c1::-moz-selection {
+  background: rgba(187, 241, 255, 0.7);
+}
 .highlight .c1::selection {
   background: rgba(187, 241, 255, 0.7);
 }
@@ -2931,7 +2945,8 @@ a::selection, .link::selection {
   left: 0;
   z-index: -1;
   border-radius: 2px;
-  transition: background 1.2s;
+  -webkit-transition: background 1.2s;
+          transition: background 1.2s;
 }
 
 /*-------------------------------------*\
@@ -3016,7 +3031,8 @@ a::selection, .link::selection {
   position: relative;
   max-height: 569.536px;
   overflow: hidden;
-  transition: max-height 300ms;
+  -webkit-transition: max-height 300ms;
+          transition: max-height 300ms;
 }
 
 /* line 26, molecules/_toggle-slider.scss */
@@ -3034,7 +3050,8 @@ a::selection, .link::selection {
   bottom: 0;
   right: 25.888px;
   text-shadow: 0 1px #5496a8;
-  transition: background 200ms;
+  -webkit-transition: background 200ms;
+          transition: background 200ms;
 }
 /* line 43, molecules/_toggle-slider.scss */
 .toggle-slider__overlay:hover, .toggle-slider__overlay:active, .toggle-slider__overlay:focus {

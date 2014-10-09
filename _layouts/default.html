@@ -12,8 +12,8 @@
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 
     <!-- Minified Styles -->
-    <link rel="stylesheet" href="/assets/css/mini.css">
-    <link rel="stylesheet" href="/assets/css/print.css" media="print">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <link rel="stylesheet" href="/dist/css/print.css" media="print">
 
     <link rel="shortcut icon" href="/icon.png">
 
@@ -27,67 +27,73 @@
             <img src='/images/post-buttons--active.png'>
         </div>
 
-        <div class="site-wrapper">
-            <header class="site-header clear-fix">
-                <img class="site-logo right" src="/images/transparent.gif" width="106" height="103">
-                <h2 class="site-logo-text"><a href="/">Joel Fredrick</a></h2>
+        <div class="site__wrapper">
+            <header class="site__header  clear-fix  [ pt pb ]">
+                <div class="wrapper">
+                    <img class="site__logo  float-right" src="/images/transparent.gif" width="106" height="103">
+                    <h2 class="site__logo__text"><a href="/">Joel Fredrick</a></h2>
 
-                <nav class="nav site-nav">
-                    <a href="/" class="menuItem">Home</a> -
-                    <a href="/about.html" class="menuItem">About</a> -
-                    <a href="/contact.html" class="menuItem">Contact</a>
-                </nav>
+                    <nav class="nav  site__nav">
+                        <a href="/" class="menuItem">Home</a> -
+                        <a href="/about.html" class="menuItem">About</a> -
+                        <a href="/contact.html" class="menuItem">Contact</a>
+                    </nav>
 
-                <aside class="site__contact-info  light  print__only">
-                    <ul class="smaller  one-line">
-                        <li>joel@joelfredrick.com</li>
-                        <li>+1 239 789 5338</li>
-                        <li>@jfelsinger</li>
-                    </ul>
-                </aside>
+                    <aside class="site__contact-info  light  print__only">
+                        <ul class="smaller  mb0">
+                            <li>joel@joelfredrick.com</li>
+                            <li>+1 239 789 5338</li>
+                            <li>@jfelsinger</li>
+                        </ul>
+                    </aside>
+                </div>
             </header>
 
             <section class="span-bar span-bar--blue-texture">
-                {% if page.index %}
-                <p class="display-text display-text--no-hide">Lovin' the Web and sharing it!</p>
-                {% else %}
-                <p class="display-text display-text--no-hide a-center">&lt;3</p>
-                {% endif %}
+                <div class="wrapper">
+                    {% if page.index %}
+                    <p class="display-text  display-text--no-hide">Lovin' the Web and sharing it!</p>
+                    {% else %}
+                    <p class="display-text  display-text--no-hide  align-center">&lt;3</p>
+                    {% endif %}
+                </div>
             </section>
 
-            <section class="mainContent">
+            <section class="main-content">
 
                 {{ content }}
 
             </section><!-- #mainContent -->
 
-            <footer class="site-footer">
-                <section class="span-bar site-footer__span-bar span-bar--gray-solid">
-                    <nav class="nav left">
-                        <a href="/" class="menuItem faded">Home</a> -
-                        <a href="/about.html" class="menuItem faded">About</a> -
-                        <a href="/contact.html" class="menuItem faded" title="Get in touch with me">Contact</a>
-                    </nav>
+            <footer class="site__footer  mb">
+                <section class="span-bar  site__footer__span-bar  span-bar--gray-solid">
+                    <div class="wrapper">
+                        <nav class="nav float-left">
+                            <a href="/" class="menuItem  faded">Home</a> -
+                            <a href="/about.html" class="menuItem  faded">About</a> -
+                            <a href="/contact.html" class="menuItem  faded" title="Get in touch with me">Contact</a>
+                        </nav>
 
-                    <p class="social right a-right">
-                        <span class="faded  hidden--micro">Follow on:</span>
-                            <a href="http://twitter.com/JFelsinger" target="_blank">
-                                <i class="icon--twitter  hidden--small"></i>
-                                <span class="hidden--tiny">Twitter</span>
-                            </a> 
-                            &sdot; 
-                            <a href="http://github.com/jfelsinger" target="_blank">
-                                <i class="icon--github  hidden--small"></i>
-                                <span class="hidden--tiny">Github</span>
-                            </a>
-                            <!-- 
-                            &sdot; 
-                            <a href="#">RSS</a>
-                            -->
-                        </span>
+                        <p class="social  float-right  align-right">
+                            <span class="faded  hidden--micro">Follow on:</span>
+                                <a href="http://twitter.com/JFelsinger" target="_blank">
+                                    <i class="icon--twitter   hidden--small"></i>
+                                    <span class="hidden--tiny">Twitter</span>
+                                </a> 
+                                &sdot; 
+                                <a href="http://github.com/jfelsinger" target="_blank">
+                                    <i class="icon--github   hidden--small"></i>
+                                    <span class="hidden--tiny">Github</span>
+                                </a>
+                                <!-- 
+                                &sdot; 
+                                <a href="#">RSS</a>
+                                -->
+                            </span>
+                    </div>
                 </section>
 
-                <p class="copyright faded">
+                <p class="copyright  faded  wrapper">
                     <small>Copyright &copy; 2013 Joel Fredrick, LLC</small>
                 </p>
             </footer>

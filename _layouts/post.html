@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post  content-area  wrapper">
     <header>
         <h1>{{ page.title }}</h1>
     </header>
 
     {% if page.navigation or page.summary %}
-    <section class="post-summary">
+    <section class="post-summary  float-right  [ p- mb  ml ]">
         {% if page.navigation_links %}
         <section class="post-summary__links">
-            <ul class="post-summary__list">
+            <ul class="post-summary__list  list--plain">
                 {% for link in page.navigation_links %}
                 <li><a href="{{ link.href }}">{{ link.name }}</a></li>
                 {% endfor %}
@@ -20,18 +20,18 @@ layout: default
         {% endif %}
         {% if page.summary_links %}
         <section class="post-summary__links">
-            <ul class="post-summary__list">
+            <ul class="post-summary__list  list--plain">
                 {% for link in page.summary_links %}
-                <li><a href="{{ link.href }}" class="media media--sprite media--link">{{ link.name }}</a></li>
+                <li><a href="{{ link.href }}" class="media  media--sprite  media--link">{{ link.name }}</a></li>
                 {% endfor %}
             </ul>
         </section>
         {% endif %}
         {% if page.summary_image-links %}
-        <section class="post-summary__links post-summary__links--images post-summary__links--last">
-            <ul class="post-summary__list">
+        <section class="post-summary__links  post-summary__links--images  post-summary__links--last">
+            <ul class="post-summary__list  list--plain">
                 {% for link in page.summary_image-links %}
-                <li><a href="{{ link.href }}" class="media media--sprite media--image-link">{{ link.name }}</a></li>
+                <li><a href="{{ link.href }}" class="media  media--sprite  media--image-link">{{ link.name }}</a></li>
                 {% endfor %}
             </ul>
         </section>

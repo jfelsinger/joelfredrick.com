@@ -1,0 +1,14 @@
+/* line 1, print.scss */
+j
+.span-bar,
+j footer,
+j nav,
+j .print__hide,
+j .print__hidden {
+  display: none !important;
+}
+
+/* line 25, print.scss */
+.print__only {
+  display: block !important;
+}

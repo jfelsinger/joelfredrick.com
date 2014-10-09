@@ -4,34 +4,34 @@ title: Joel Felsinger
 index: true
 ---
 
-<section id="posts">
+<section class="posts  wrapper">
     {% for post in paginator.posts %}
-    <article class="post post--seperated clear-fix">
-        <header class="clear-fix listing-header">
-            <a href="{{ post.url }}" class="button-expand right" title="Expand">expand</a>
+    <article class="post  post--separated  clear-fix">
+        <header class="clear-fix  listing-header  pt">
+            <a href="{{ post.url }}" class="button-expand  float-right" title="Expand">expand</a>
             <h2><a href="{{ post.url }}" class="inherit-color">{{ post.title }}</a></h2>
-            <p class="post-time">Posted <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></p>
+            <p class="post-time  mb">Posted <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time></p>
         </header>
 
-        <div class="toggle-slider toggle-slider--hidden clear">
+        <div class="toggle-slider  toggle-slider--hidden  clear">
             <a href="{{ post.url }}" class="toggle-slider__overlay" title="Keep on reading">More</a>
-            <div class="post-content  post-content--preview">
+            <div class="post-content  post-content--preview  content-area">
                 {% if post.summary %}
-                <section class="post-summary">
+                <section class="post-summary  float--right  [ p mb mr ]">
                     {% if post.summary_links %}
                     <section class="post-summary__links">
                         <ul class="post-summary__list">
                             {% for link in post.summary_links %}
-                            <li><a href="{{ link.href }}" class="media media--sprite media--link">{{ link.name }}</a></li>
+                            <li><a href="{{ link.href }}" class="media  media--sprite  media--link">{{ link.name }}</a></li>
                             {% endfor %}
                         </ul>
                     </section>
                     {% endif %}
                     {% if post.summary_image-links %}
-                    <section class="post-summary__links post-summary__links--images post-summary__links--last">
+                    <section class="post-summary__links  post-summary__links--images  post-summary__links--last">
                         <ul class="post-summary__list">
                             {% for link in post.summary_image-links %}
-                            <li><a href="{{ link.href }}" class="media media--sprite media--image-link">{{ link.name }}</a></li>
+                            <li><a href="{{ link.href }}" class="media  media--sprite  media--image-link">{{ link.name }}</a></li>
                             {% endfor %}
                         </ul>
                     </section>

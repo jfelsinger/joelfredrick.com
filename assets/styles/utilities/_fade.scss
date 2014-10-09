@@ -1,28 +1,24 @@
 /*-------------------------------------*\
-    SELECTIONS
+    FADE
 \*-------------------------------------*/
 
 /**
- * Selections 
- * 
- * 
+ * Fade 
+ *
+ * Faded, slightly transparent element
  * 
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
  * 
     
  * 
  */ 
-
-%selection {
-    color: $c-selection;
-    background: $c-selection__bg;
-
-    text-shadow: none;
-}
  
+
+%fade { opacity: .7; }
+
 
 
 
@@ -30,6 +26,8 @@
 /*-------------------------------------*\
     Isotopes
 \*-------------------------------------*/
+
+%fade--more { opacity: .5; }
 
 
 
@@ -39,8 +37,8 @@
     Implementation
 \*-------------------------------------*/
 
-::selection { @extend %selection !optional; }
-.selection  { @extend %selection !optional; }
+.fade { @extend %fade !optional; }
+.fade--more { @extend %fade--more !optional; }
 
 
 

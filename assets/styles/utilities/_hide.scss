@@ -1,28 +1,24 @@
 /*-------------------------------------*\
-    SELECTIONS
+    HIDE
 \*-------------------------------------*/
 
 /**
- * Selections 
- * 
- * 
+ * Hide 
  * 
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
  * 
     
  * 
  */ 
-
-%selection {
-    color: $c-selection;
-    background: $c-selection__bg;
-
-    text-shadow: none;
-}
  
+
+%hidden {
+    display: none;
+}
+
 
 
 
@@ -30,6 +26,10 @@
 /*-------------------------------------*\
     Isotopes
 \*-------------------------------------*/
+
+@include mapbreakpoints('%hide', $gbp, max-width) {
+    display: none;
+}
 
 
 
@@ -39,10 +39,11 @@
     Implementation
 \*-------------------------------------*/
 
-::selection { @extend %selection !optional; }
-.selection  { @extend %selection !optional; }
+.hide,
+.hidden { @extend %hidden !optional; }
 
-
-
-
-
+@each $bpname, $size in $gbp {
+    .hide--#{$bpname} {
+        @extend %hidden--#{$bpname} !optional;
+    }
+}

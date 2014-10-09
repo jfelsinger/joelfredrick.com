@@ -17,36 +17,70 @@
  */ 
 
 %heading {
+    color: $c-post__title;
+    font-family: $f-openSans;
+    font-weight: normal;
 }
 
     %alpha {
         @extend %heading !optional;
 
+        @include inuit-font-size(59px);
+
+        font-weight: bold;
+
+        @include breakpoint(max-width $gbp-small) {
+            @include inuit-font-size(42px);
+        }
     }
 
     %beta {
         @extend %heading !optional;
 
+        @include inuit-font-size(42px);
+
+        font-family: $f-ptCap;
+
+        @include breakpoint(max-width $gbp-small) {
+            @include inuit-font-size(37px);
+        }
     }
 
     %gamma {
         @extend %heading !optional;
 
+        @include inuit-font-size(37px);
+
+        color: $c-border--dark;
+        font-family: $f-ptCap;
+
+        @include breakpoint(max-width $gbp-small) {
+            @include inuit-font-size(26px);
+        }
     }
 
     %delta {
         @extend %heading !optional;
 
+        @include inuit-font-size(26px);
+
+        @include breakpoint(max-width $gbp-small) {
+            @include inuit-font-size(22px);
+        }
     }
 
     %epsilon {
         @extend %heading !optional;
 
+        @include inuit-font-size(22px);
+
+        @include breakpoint(max-width $gbp-small) {
+            @include inuit-font-size(18px);
+        }
     }
 
     %zeta {
         @extend %heading !optional;
-
     }
 
 

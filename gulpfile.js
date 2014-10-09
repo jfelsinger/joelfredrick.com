@@ -43,13 +43,13 @@ gulp.task('styles', ['bower-styles'], function() {
             style: 'expanded',
             css: dir.client + '/assets/styles',
             sass: dir.client + '/assets/styles',
-            require: []
+            require: ['breakpoint']
         }))
         .pipe(autoprefixer())
-        .pipe(gulp.dest(dir.client + '/assets/styles'))
+        // .pipe(gulp.dest(dir.client + '/assets/styles'))
 
-        .pipe(minifycss())
-        .pipe(gulp.dest(dir.dist + '/assets/styles'))
+        // .pipe(minifycss())
+        .pipe(gulp.dest(dir.dist + '/css'))
 
         .pipe(notify({message: 'Styles task complete' }));
 });
@@ -74,7 +74,7 @@ gulp.task('clientScripts', function() {
 gulp.task('watch', ['client'], function() {
 
     // Watch styles
-    gulp.watch(dir.client + '/styles/**/*.{sass,scss}', ['styles']);
+    gulp.watch(dir.client + '/assets/styles/**/*.{sass,scss}', ['styles']);
 
     // Watch client scripts
     gulp.watch(dir.client + '/assets/js/**/*.js', ['clientScripts']);

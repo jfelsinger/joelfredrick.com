@@ -1,14 +1,12 @@
 /*-------------------------------------*\
-    BORDERS
+    PAGE
 \*-------------------------------------*/
 
 /**
- * Borders 
+ * Page 
  * 
- * Classes for styled borders
  **
  * Base
- * Isotopes
  * Implementation
  * 
     
@@ -16,6 +14,6 @@
  */ 
  
 
-
-
-
+html {
+    text-align: center;
+}

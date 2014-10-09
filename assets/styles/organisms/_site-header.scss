@@ -1,0 +1,31 @@
+/*-------------------------------------*\
+    SITE HEADER
+\*-------------------------------------*/
+
+/**
+ * Site Header 
+ * 
+ **
+ * Base
+ * Implementation
+ * 
+    
+ * 
+ */ 
+ 
+
+%site-header {
+    min-height: unit(3);
+    margin-bottom: unit();
+    position: relative;
+}
+
+
+
+
+
+/*-------------------------------------*\
+    Implementation
+\*-------------------------------------*/
+
+.site-header { @extend %site-header !optional; }

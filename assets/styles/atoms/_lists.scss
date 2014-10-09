@@ -36,9 +36,11 @@
 \*-------------------------------------*/
 
 %list {
+    padding-left: 1em;
 }
 
     %list__item {
+        margin-bottom: unit();
     }
 
 
@@ -134,6 +136,26 @@
 
 
 
+/*---   Comma-separated List   ---
+
+**
+* A list that has commas to separate items
+*/
+%list--comma {
+    li {
+        &:after {
+            content: ",";
+        }
+
+        &:last-of-type:after {
+            content: "";
+        }
+    }
+}
+
+
+
+
 /*---   Image List   ---
 
  **
@@ -200,6 +222,7 @@
 .list--flush    { @extend %list--flush;     }
 .list--plain    { @extend %list--plain;     }
 .list--one-line { @extend %list--one-line;  }
+.list--comma    { @extend %list--comma;     }
 .list--image    { @extend %list--image;     }
  
 

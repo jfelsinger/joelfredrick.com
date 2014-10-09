@@ -67,7 +67,7 @@
 /*---   Floats   ---*/
 
 %float-left   { float: left;   }
-%float-right  { float: left;   }
+%float-right  { float: right;  }
 
 
 
@@ -94,8 +94,8 @@
 
 /*---   Floats   ---*/
 
-.float-left   { @extend %align-left;  }
-.float-right  { @extend %align-right; }
+.float-left   { @extend %float-left;  }
+.float-right  { @extend %float-right; }
 
 
 

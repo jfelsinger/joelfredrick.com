@@ -24,6 +24,13 @@
     background: $c-body;
 }
 
+%slab--gray--light {
+    color: $c-text;
+    background: $c-gray--light;
+}
+
+
+
 
 
 
@@ -41,6 +48,7 @@
 \*-------------------------------------*/
 
 .slab--default { @extend %slab--default !optional; }
+.slab--gray--light { @extend %slab--gray--light !optional; }
 
 
 

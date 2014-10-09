@@ -18,11 +18,31 @@
  */ 
  
 
-$gbp-huge:      1080px;
-$gbp-large:     960px;
-$gbp-medium:    740px;
-$gbp-small:     610px;
-$gbp-tiny:      450px;
+$gbp-huge:      1080px !global;
+$gbp-large:     960px !global;
+$gbp-medium:    740px !global;
+$gbp-small:     630px !global;
+$gbp-tiny:      480px !global;
+$gbp-micro:     340px !global;
+
+$gbp: (
+    huge:      $gbp-huge,
+    large:     $gbp-large,
+    medium:    $gbp-medium,
+    small:     $gbp-small,
+    tiny:      $gbp-tiny,
+    micro:     $gbp-micro
+) !global;
+
+@mixin mapbreakpoints($name, $breakpoints: $gbp, $bpdirective: '') {
+    @each $bpname, $size in $breakpoints {
+        #{$name}--#{$bpname} {
+            @include breakpoint($bpdirective $size) {
+                @content
+            }
+        }
+    }
+}
  
 
 
