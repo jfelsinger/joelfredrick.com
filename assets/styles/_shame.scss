@@ -30,3 +30,11 @@
 %relative { position: relative; }
     .relative { @extend %relative; }
 
+/**
+ * Lazy breakpoints for layout items
+ */
+.layout__item {
+    @include breakpoint(max-width $gbp-small) {
+        width: 100% !important;
+    }
+}

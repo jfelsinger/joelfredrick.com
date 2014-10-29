@@ -1,10 +1,18 @@
-/* line 1, print.scss */
-j
+/*-------------------------------------*\
+    PRINT
+\*-------------------------------------*/
+/**
+ * Print
+ * 
+ * All the print styles
+ * 
+ */
+/* line 12, print.scss */
 .span-bar,
-j footer,
-j nav,
-j .print__hide,
-j .print__hidden {
+footer,
+nav,
+.print__hide,
+.print__hidden {
   display: none !important;
 }
 

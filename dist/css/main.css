@@ -3081,7 +3081,7 @@ a::selection, .link::selection {
 .site__contact-info {
   padding-left: 12.944px;
   position: absolute;
-  top: 16px;
+  top: 0;
   right: 0;
   border-left: 1px solid #e6e6e6;
 }
@@ -3283,4 +3283,14 @@ a::selection, .link::selection {
 /* line 30, _shame.scss */
 .relative {
   position: relative;
+}
+
+/**
+ * Lazy breakpoints for layout items
+ */
+@media (max-width: 630px) {
+  /* line 36, _shame.scss */
+  .layout__item {
+    width: 100% !important;
+  }
 }

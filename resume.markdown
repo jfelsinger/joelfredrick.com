@@ -31,6 +31,17 @@ Asp.Net application development.
 Web design and front-end development, including back-end development with PHP.
 
 
+### Education
+
+##### Programming
+
+<small class="fade">2011-2012 - Certification of Completion at Lee County High Tech North</small>
+
+##### Web Development
+
+<small class="fade">2010-2011 - Certification of Completion at Lee County High Tech North</small>
+
+
 ### Skills
 
 <div class="layout">
