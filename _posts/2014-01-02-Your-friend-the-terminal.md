@@ -92,10 +92,10 @@ Lets try that. We're going to add an ``l`` flag to indicate we want to list more
 information.
 
 ```
-drw-rw-r-x    1 joel joel     198 Sep  9  2012 Documents
-drw-rw-r-x    1 joel joel     198 Sep 12  2012 Dropbox
-drwxrwxr-x   2 joel joel    4096 Jul 10 10:30 Games
--rw-r--r--       16 joel joel    4096 Jun 25  2013 post.md
+drw-rw-r-x    1  joel joel     198  Sep  9   2012 Documents
+drw-rw-r-x    1  joel joel     198  Sep 12   2012 Dropbox
+drwxrwxr-x    2  joel joel    4096  Jul 10  10:30 Games
+-rw-r--r--    16 joel joel    4096  Jun 25   2013 post.md
 ```
 
 
