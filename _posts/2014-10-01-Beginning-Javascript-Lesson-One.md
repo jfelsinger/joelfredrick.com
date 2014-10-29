@@ -17,22 +17,20 @@ summary_links:
 
 ---
 
-Javascript a quirky little language that originated to add functionality to web
-pages. Over the years it's a language that has been plagued with issues
-regarding browser-support, a finicky handling of dynamic typing, and a number
-of other problems. But, despite all of that it's a language that many developers
-have grown to love, and has gone from just manipulating elements on web pages to
-running the servers that actually serve up those web pages and many other things
-that people five or ten years would have never even dreamed of doing with
-Javascript.
+Javascript is a quirky little language that originated to add functionality to web
+pages. Over the years it has been plagued with issues regarding browser-support, 
+a finicky handling of dynamic typing, and a number of other problems. 
+But, despite all of that JavaScript a language that many developers
+have grown to love. As such it has gone from just manipulating elements on web pages to
+being able to run the servers that actually serve up those web pages, and many other things
+that people five or ten years ago would have never even dreamed of doing with it.
 
 Javascript is a language that continues to become more powerful and more widely
 used as time goes on. That is why I've decided to write a bit to help people get
-started with Javascript and programming with it, and not as a simple language
-for just manipulating web-pages either. This series of posts is going to be
-about teaching you how to use Javascript with Node.js to create programs that
-you can run on your local machine, just like programming languages such as
-C++ or C.
+started with Javascript and programming with it. This series of posts is going to go beyond
+the simple manipulation of web-pages and will be about teaching you how to use Javascript 
+with Node.js to create programs that you can run on your local machine. Just like programming 
+languages such as C++ or C.
 
 This first post is to get you setup with some of the tools you'll need to make
 and then run your programs.
@@ -43,17 +41,17 @@ and then run your programs.
 
 Node is a platform for easily building applications, and it is also the platform
 that will run and execute the Javascript code that we create. Installing node
-is a pretty straightforward process, but it can very from system to system. For
+is a pretty straightforward process, but it can vary from system to system. For
 the most part you just have to follow the instructions on the 
 [node.js download page](http://nodejs.org/download/) to get up and running.
 
 <h4>Windows</h4>
 
-If you're on Windows you'll have a nice and easy installer that you can run, 
-just download the appropriate file for your system and follow the installation.
+If you're on Windows you'll have a nice and easy installer that you can run. 
+Just download the appropriate file for your system and follow the installation.
 
 <small>
-When running the Windows installer I've only run into one problem, node not
+When running the Windows installer I've only run into one problem: node not
 being properly included into the path after install. If this happens you can't 
 run node from anywhere in the powershell or the command prompt, which can be 
 quite frustrating.
@@ -80,7 +78,7 @@ on Github to help you get up and running.
 
 <h3 id="ide">IDE</h3>
 
-IDE stands for integrated development environment. It's a program that you use
+IDE stands for Integrated Development Environment. It's a program that you use
 to write your code in. If you've done any programming before you might have a
 preferred IDE, and that's ok. If you're new to programming though, or you just
 want to try something new, I suggest you checkout 
@@ -102,12 +100,12 @@ you're on Windows, use powershell.
 
 <h2 id="helloWorld">Hello World!</h2>
 
-So now that you have your tools and they're setup, lets get ready to write our
+So now that you have your tools and they're setup, let's get ready to write our
 first program. The purpose of this program will be simple, to output the words
 "Hello World!" to the screen.
 
 We'll start by opening up our IDE and creating a new Javascript file. Once you
-have that done, then copy the following:
+have that done, type or copy the following:
 
 ```javascript
 /* jshint node: true */
@@ -116,7 +114,7 @@ have that done, then copy the following:
 console.log('Hello World!');
 ```
 
-when you're done save your program to your computer. Name it something you'll
+When you're done save your program to your computer. Name it something you'll
 remember or just `app.js`, it doesn't matter too much.
 
 Then, open up your console and `cd` to the directory where you stored your
@@ -133,7 +131,7 @@ Hello World!
 If all went well, the words "Hello World!" should have been outputted to the
 console. If so, hurray! You just wrote your first working program. But what's
 actually going on here though? There are a few different parts here that make
-this program work. I'm going to break it them down and explain them to you.
+this program work. I'm going to break it down and explain them to you.
 
 The first couple lines of the program don't handle any of the executing of the
 program, but are instead there to help instruct the code parser on how to
@@ -146,15 +144,15 @@ evaluate our code.
 The first line is a comment, and inside is a directive that is used to tell a
 program called jshint that this code is going to be ran inside of node. Jshint
 is a type of program called a linter, it checks your code and points out where
-you might be failing to follow best practices. If your using brackets you might
-already have it installed, if not you can install Jshint at a plugin and all of
+you might be failing to follow best practices. If you're using Brackets you might
+already have it installed, if not you can install Jshint as a plugin and all of
 your Javascript will be checked with it.
 
 ```
 'use strict';
 ```
 
-This tells the Javascript interpreter to use strict mode. In strict mode some of
+This tells the Javascript interpreter to use "strict" mode. In strict mode some of
 the more common Javascript pitfalls will throw errors instead of potentially
 running with unintuitive results.
 
@@ -171,11 +169,11 @@ things or store values. The `console` object is a built-in object that can
 handle some of the outputting of data to the console.
 
 After we specify the console object, we're calling the conole object's `log`
-method. A method is a name for something that an object to do, and the syntax to
-access an object's method is a period followed by the method name, `.log`.
+method. A method is a name for something that an object can do. The syntax to
+access an object's methods is a period followed by the method name, `.log`.
 
-Just accessing an object's method isn't enough though, to actually run the
-method you have to follow it by parenthesis, `()`. Methods can also take in data 
+Just accessing an object's methods isn't enough though, to actually run the
+method you have to follow it with parenthesis, `()`. Methods can also take in data 
 they need to execute properly, and the way that is done is by passing the value
 `(` between `)` two parenthesis. In our case, we pased in the string-literal,
 `('Hello World!')`. 
@@ -184,10 +182,10 @@ All together this tells the console's log function to go ahead and output the
 value "Hello World!" to the console.
 
 Then, at the very end, we have a single semi-colon, `;`. In Javascript it's a
-best practice to end all of your statements with a semi-colon, it lets the
+best practice to end all of your statements with a semi-colon. It lets the
 interpreter know it is ok to move on to the next thing to execute. It's the same
 as in writing, where you end all of your sentences with a period. If you didn't
-you wouldn't know where one thing ends, and another begins.
+you wouldn't know where one sentence ends, and another begins.
 
 ---
 
@@ -195,7 +193,7 @@ Now that you've written your first program, and gotten a run down of how it
 works, why not do some experimenting to see what you can do with things?
 
 <ul class="list--unordered">
-    <li>Can you rewrite your program to make something different be outputted?</li>
+    <li>Can you rewrite your program to make something different be output?</li>
     <li>What happens if you call `console.log` more than once in the same program?</li>
     <li>Does the space between different parts of our programs matter?</li>
 </ul>
