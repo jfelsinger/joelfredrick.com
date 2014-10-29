@@ -23,3 +23,10 @@
     margin-bottom: 0;
 }
     .one-line { @extend %scroll-fix; }
+
+/**
+ * There is probably a better way to go about this,
+ */
+%relative { position: relative; }
+    .relative { @extend %relative; }
+

@@ -43,6 +43,19 @@ $gbp: (
         }
     }
 }
+
+
+
+/*---   Inuit Settings   ---*/
+
+$breakpoints: (
+    huge:      "screen and (max-width: "$gbp-huge")",
+    large:     "screen and (max-width: "$gbp-large")",
+    medium:    "screen and (max-width: "$gbp-medium")",
+    small:     "screen and (max-width: "$gbp-small")",
+    tiny:      "screen and (max-width: "$gbp-tiny")",
+    micro:     "screen and (max-width: "$gbp-micro")",
+) !default;
  
 
 

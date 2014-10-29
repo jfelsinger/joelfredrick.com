@@ -49,6 +49,7 @@
 
 @import 'settings';
 @import 'bower_components/inuit-defaults/settings.defaults';
+@import 'bower_components/inuit-responsive-settings/settings.responsive';
 
 
 
@@ -67,7 +68,10 @@
 @import 'utilities/hide';
 @import 'utilities/syntax';
 @import 'utilities/inherit-color';
+
 @import 'bower_components/inuit-widths/trumps.widths';
+@import 'bower_components/inuit-widths-responsive/trumps.widths-responsive';
+
 @import 'bower_components/inuit-spacing/trumps.spacing';
 
 

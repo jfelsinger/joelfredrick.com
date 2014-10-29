@@ -525,6 +525,7 @@ ins {
  *  bp-[name]
  * 
  */
+/*---   Inuit Settings   ---*/
 /*-------------------------------------*\
     COLORS
 \*-------------------------------------*/
@@ -1079,7 +1080,6 @@ html {
   padding-right: 51.776px;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: content-box;
 }
 
 /*-------------------------------------*\
@@ -1781,6 +1781,12 @@ html {
 }
 
 /*------------------------------------*\
+    #WIDTHS-RESPONSIVE
+\*------------------------------------*/
+/**
+ * Responsive width classes based on your responsive settings.
+ */
+/*------------------------------------*\
     #SPACING
 \*------------------------------------*/
 /**
@@ -2228,7 +2234,6 @@ html {
   font-size: 2.3125rem;
   line-height: 1.39935;
   color: #c9c9c9;
-  font-family: "PT Serif Caption", "PTSerif-Caption";
 }
 @media (max-width: 630px) {
   /* line 49, atoms/_headings.scss */
@@ -2471,12 +2476,7 @@ a::selection, .link::selection {
  * A list that exists as a single line
  */
 /* line 131, atoms/_lists.scss */
-.list--ordered.list--one-line > li,
-.list--unordered.list--one-line > li,
-.list--definition.list--one-line > dt,
-.list--one-line > .list__term,
-.list--definition.list--one-line > dd,
-.list--one-line > .list__definition, .list--one-line > .list__item {
+.list--one-line > li {
   margin-bottom: 0;
   display: inline;
 }
@@ -2487,11 +2487,11 @@ a::selection, .link::selection {
 * A list that has commas to separate items
 */
 /* line 146, atoms/_lists.scss */
-.list--comma li:after {
+.list--comma > li:after {
   content: ",";
 }
 /* line 150, atoms/_lists.scss */
-.list--comma li:last-of-type:after {
+.list--comma > li:last-of-type:after {
   content: "";
 }
 
@@ -2893,13 +2893,14 @@ a::selection, .link::selection {
 .skill-list {
   font-size: .875em;
   line-height: 1.345;
+  list-style: none;
 }
 
-/* line 26, molecules/_skill-list.scss */
+/* line 27, molecules/_skill-list.scss */
 .skill-list__item {
   position: relative;
 }
-/* line 30, molecules/_skill-list.scss */
+/* line 31, molecules/_skill-list.scss */
 .skill-list__item:before {
   content: "";
   width: 100%;
@@ -2913,14 +2914,14 @@ a::selection, .link::selection {
   border-radius: 2px;
 }
 
-/* line 45, molecules/_skill-list.scss */
+/* line 46, molecules/_skill-list.scss */
 .skill-list__name {
   padding-right: .5em;
   background: white;
   float: left;
 }
 
-/* line 51, molecules/_skill-list.scss */
+/* line 52, molecules/_skill-list.scss */
 .skill-list__rating {
   height: 2px;
   text-indent: -9999px;
@@ -2937,7 +2938,7 @@ a::selection, .link::selection {
 /*-------------------------------------*\
     Implementation
 \*-------------------------------------*/
-/* line 77, molecules/_skill-list.scss */
+/* line 78, molecules/_skill-list.scss */
 .skill-list__item:hover .skill-list__rating {
   background: #5496a8;
 }
@@ -3196,7 +3197,7 @@ a::selection, .link::selection {
   font-size: 1.125rem;
   line-height: 1.43822;
   position: absolute;
-  top: 90.608px;
+  top: 64.72px;
   left: 84.136px;
   text-shadow: 0 1px rgba(0, 0, 0, 0.32);
 }
@@ -3260,3 +3261,10 @@ a::selection, .link::selection {
  *
  * Remove the bottom margin from an element
  */
+/**
+ * There is probably a better way to go about this,
+ */
+/* line 30, _shame.scss */
+.relative {
+  position: relative;
+}

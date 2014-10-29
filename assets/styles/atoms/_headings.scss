@@ -52,7 +52,7 @@
         @include inuit-font-size(37px);
 
         color: $c-border--dark;
-        font-family: $f-ptCap;
+        // font-family: $f-ptCap;
 
         @include breakpoint(max-width $gbp-small) {
             @include inuit-font-size(26px);

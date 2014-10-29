@@ -128,7 +128,7 @@
 %list--one-line {
     @extend %list--plain;
 
-    > %list__item {
+    > li {
         margin-bottom: 0;
         display: inline;
     }
@@ -142,7 +142,7 @@
 * A list that has commas to separate items
 */
 %list--comma {
-    li {
+    > li {
         &:after {
             content: ",";
         }
