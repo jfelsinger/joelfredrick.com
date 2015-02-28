@@ -8,7 +8,9 @@ categories: css
 navigation: true
 
 summary_links:
-  - { name: "Using CSS Variabled, MDN", href: "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" }
+  - { name: "Using CSS Variables, MDN", href: "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" }
+  - { name: "CSS Variables, w3", href: "http://dev.w3.org/csswg/css-variables/" }
+  - { name: "...A Bad Idea, Aaron gustafson", href: "http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/" }
 
 ---
 
