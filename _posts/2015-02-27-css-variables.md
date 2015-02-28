@@ -4,9 +4,15 @@ title:  "CSS Variables"
 date:   2015-02-27
 comments: true
 categories: css
+
+navigation: true
+
+summary_links:
+  - { name: "Using CSS Variabled, MDN", href: "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" }
+
 ---
 
-If you haven't heard variables, those useful little things that let you save
+If you haven't heard, variables, those useful little things that let you save
 values, might be coming to CSS. It's an idea that's been thrown around for quite
 a while, and has currently made it's way to [the w3c editor's draft](http://dev.w3.org/csswg/css-variables/).
 Not surprising considering the push for it.
@@ -20,5 +26,6 @@ make use of it seem pretty clear-cut, but is it really?
 
 Aaron Gustafson has presented an eye-opening article on the subject,
 *[CSS Variables Are a Bad Idea](http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/)*.
-It takes a look at CSS variables from another angle and I recommend that anyone
-thinking about CSS variables give it a read.
+It takes a look at CSS variables from another angle and comes to the conclusion
+that maybe adding variables to the CSS spec won't be all it's chalked up to be.
+I recommend that anyone thinking about CSS variables give it a read.
