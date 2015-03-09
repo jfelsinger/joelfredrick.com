@@ -8,7 +8,7 @@ categories: css
 navigation: true
 
 summary_links:
-  - { name: "Brevity vs. Clarity, ALA", href: "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" }
+  - { name: "Brevity vs. Clarity, ALA", href: "http://alistapart.com/blog/post/brevity-vs-clarity" }
 
 ---
 
