@@ -48,12 +48,14 @@ index: true
     {% endfor %}
 
     <p class="page-navigation">
-        {% if paginator.previous_page %}
-        <a href="index.html/page/{{ paginator.previous_page }}" title="View some of my older posts">Older Posts</a>
+        {% if paginator.previous_page == 1 %}
+        <a href="/" title="View some of my older posts">Older Posts</a>
+        {% elsif paginator.previous_page %}
+        <a href="/page/{{ paginator.previous_page }}" title="View some of my older posts">Older Posts</a>
         {% endif %}
 
         {% if paginator.next_page %}
-        <a href="index.html/page/{{ paginator.next_page }}" title="View my more recent posts">Newer Posts</a>
+        <a href="/page/{{ paginator.next_page }}" title="View my more recent posts">Newer Posts</a>
         {% endif %}
     </p>
 </section>
