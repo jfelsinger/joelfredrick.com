@@ -10,8 +10,6 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     rimraf = require('gulp-rimraf'),
-    notify = require('gulp-notify'),
-    jekyll = require('gulp-jekyll'),
     mocha = require('gulp-mocha');
 
 
@@ -41,17 +39,13 @@ gulp.task('styles', ['bower-styles'], function() {
     return gulp.src(dir.client + '/assets/styles/*.{scss,sass}')
         .pipe(compass({
             style: 'expanded',
-            css: dir.client + '/assets/styles',
+            css: dir.client + '/assets/css',
             sass: dir.client + '/assets/styles',
             require: ['breakpoint']
         }))
         .pipe(autoprefixer())
-        // .pipe(gulp.dest(dir.client + '/assets/styles'))
-
-        // .pipe(minifycss())
-        .pipe(gulp.dest(dir.dist + '/css'))
-
-        .pipe(notify({message: 'Styles task complete' }));
+        .pipe(minifycss())
+        .pipe(gulp.dest(dir.dist + '/css'));
 });
 
 gulp.task('clientScripts', function() {
@@ -66,9 +60,7 @@ gulp.task('clientScripts', function() {
         .pipe(jshint.reporter('default'))
         .pipe(browserify())
         .pipe(uglify())
-        .pipe(gulp.dest(dir.dist + '/js'))
-
-        .pipe(notify({ message: 'Client scripts task complete' }));
+        .pipe(gulp.dest(dir.dist + '/js'));
 });
 
 gulp.task('watch', ['client'], function() {
@@ -79,28 +71,6 @@ gulp.task('watch', ['client'], function() {
     // Watch client scripts
     gulp.watch(dir.client + '/assets/js/**/*.js', ['clientScripts']);
 
-    // Watch markup
-    gulp.watch([
-        './*.{html,markdown,md}',
-        './_layouts/**/*.html',
-        './_posts/**/*.{markdown,md}'
-    ], ['jekyll']);
-
-});
-
-gulp.task('jekyll', function() {
-    return;
-    return gulp.src([
-            dir.client + '/*.{html,markdown,md}',
-            dir.client + '/_layouts/**/*.html',
-            dir.client + '/_posts/**/*.{markdown,md}'
-        ])
-        .pipe(jekyll({
-            source: './',
-            destination: './_site',
-            bundleExec: true
-        }))
-        .pipe(gulp.dest(dir.client + '/_site'));
 });
 
 gulp.task('mocha', function() {
@@ -114,12 +84,11 @@ gulp.task('lint', function() {
             'test/**/*.js'
         ])
         .pipe(jshint('.jshintrc'))
-        .pipe(jshint.reporter('default'))
-        .pipe(notify({ message: 'Linting task complete' }));
+        .pipe(jshint.reporter('default'));
 });
 
 gulp.task('client', ['rimraf', 'bower'], function() {
-    gulp.start('jekyll', 'styles', 'clientScripts');
+    gulp.start('styles', 'clientScripts');
 });
 
 gulp.task('test', ['lint', 'mocha']);

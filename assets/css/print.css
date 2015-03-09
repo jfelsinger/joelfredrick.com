@@ -7,7 +7,6 @@
  * All the print styles
  * 
  */
-/* line 12, print.scss */
 .span-bar,
 footer,
 nav,
@@ -16,7 +15,6 @@ nav,
   display: none !important;
 }
 
-/* line 25, print.scss */
 .print__only {
   display: block !important;
 }

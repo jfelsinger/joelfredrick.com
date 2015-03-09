@@ -7,5 +7,5 @@ excerpt_separator: "<!-- ==== -->"
 permalink: /:year/:i_month/:title
 exclude:
     - package.json
-      Gruntfile.js
+      gulpfile.js
       node_modules
