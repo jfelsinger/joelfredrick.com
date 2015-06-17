@@ -43,6 +43,7 @@ for our test(`test/cart.js`).
 First we setup a model:
 
 *`cart-model.js`*
+
 ```
 // Export a function that sets up our model inside couch-cushion
 module.exports = function(cushion) {
@@ -76,6 +77,7 @@ module.exports = function(cushion) {
 Once we have the model setup we can then create a test around it:
 
 *`test/cart.js`*
+
 ```
 var Cushion = require('couch-cushion/src'),
     cartSetup = require('../cart-model');
