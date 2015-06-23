@@ -16,6 +16,15 @@ am confident that I can solve in a scalable and maintainable way.
 ##### Developer
 
 <p class="mb0">
+    <small class="fade">2014-present Freelance</small>
+</p>
+
+Been creating and working-on awesome client projects using technologies like
+Node.js, Couchbase, and MongoDb. Big focus on improving infrastructure and code-bases.
+
+##### Developer
+
+<p class="mb0">
     <small class="fade">2013-2014 at Deerso Inc.</small>
 </p>
 
