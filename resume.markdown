@@ -5,10 +5,10 @@ title: Resume
 
 <h1 class="print__hidden">Resume</h1>
 
-I'm a full-stack developer located in the sunny state of Florida. I have strong skills 
-in both front-end and back-end development, and am just as much at home developing REST apis 
-as I am creating CSS animations to help bring designs to life. Any problem thrown at me I
-am confident that I can solve in a scalable and maintainable way.
+I'm a full-stack developer, at home with any part of a code base.
+in both front-end and back-end development, and am just as much at home
+developing REST APIs or console apps as I am creating CSS animations to help
+bring designs to life. Throw a problem at me, I'll solve it.
 
 
 ### Experience
@@ -20,7 +20,9 @@ am confident that I can solve in a scalable and maintainable way.
 </p>
 
 Been creating and working-on awesome client projects using technologies like
-Node.js, Couchbase, and MongoDb. Big focus on improving infrastructure and code-bases.
+`Node.js`, `Couchbase`, and `MongoDb`. Keeping a big focus on improving infrastructure
+and architecture of code-bases as well as leading client development teams to
+build scalable and highly-maintainable solutions.
 
 ##### Developer
 
@@ -28,8 +30,8 @@ Node.js, Couchbase, and MongoDb. Big focus on improving infrastructure and code-
     <small class="fade">2013-2014 at Deerso Inc.</small>
 </p>
 
-Full-stack web development for internal and external sites, along with general C# and
-Asp.Net application development.
+Full-stack web development for internal and external sites, along with general
+`C#` and `Asp.Net` application development.
 
 ##### Web Developer/Designer
 
@@ -37,7 +39,7 @@ Asp.Net application development.
     <small class="fade">2012-2013 at Synergy Networks</small>
 </p>
 
-Web design and front-end development, including back-end development with PHP.
+Web design and front-end development, including back-end development with `PHP`.
 
 
 ### Education
@@ -56,18 +58,18 @@ Web design and front-end development, including back-end development with PHP.
 <div class="layout">
     <ul class="layout__item  skill-list  1/2  small-1/1">
         <li class="skill-list__item">
-            <span class="skill-list__name">Html &amp; Css</span>
+            <span class="skill-list__name">JavaScript &amp; Node</span>
             <i class="skill-list__rating  1/1">10/10</i>
         </li>
 
         <li class="skill-list__item">
-            <span class="skill-list__name">JavaScript &amp; Node</span>
+            <span class="skill-list__name">Html &amp; Css</span>
             <i class="skill-list__rating  9/10">9/10</i>
         </li>
 
         <li class="skill-list__item">
             <span class="skill-list__name">C# &amp; Asp.Net</span>
-            <i class="skill-list__rating  8/10">8/10</i>
+            <i class="skill-list__rating  7/10">7/10</i>
         </li>
 
         <li class="skill-list__item">
@@ -87,7 +89,7 @@ Web design and front-end development, including back-end development with PHP.
 
         <li class="skill-list__item">
             <span class="skill-list__name">MongoDb</span>
-            <i class="skill-list__rating  7/10">7/10</i>
+            <i class="skill-list__rating  8/10">8/10</i>
         </li>
     </ul><!--
 
@@ -96,15 +98,16 @@ Web design and front-end development, including back-end development with PHP.
          <small>Other Skills:</small>
 
          <ul class="skill-list  1/2  palm-1/1  list--one-line  list--comma">
+            <li>ES6</li>
+            <li>Database Design</li>
             <li>Git</li>
             <li>Photoshop</li>
             <li>SEO</li>
             <li>Accessibility</li>
-            <li>Quick to Learn</li>
+            <li>Quick Learning</li>
             <li>Writing</li>
             <li>Bash</li>
             <li>Vim</li>
-            <li>Database Design</li>
         </ul>
     </div>
 </div>
