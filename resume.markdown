@@ -56,7 +56,7 @@ Web design and front-end development, including back-end development with `PHP`.
 ### Skills
 
 <div class="layout">
-    <ul class="layout__item  skill-list  1/2  small-1/1">
+    <ul class="layout__item  skill-list  1/2  small-1/1  print-1/2">
         <li class="skill-list__item">
             <span class="skill-list__name">JavaScript &amp; Node</span>
             <i class="skill-list__rating  1/1">10/10</i>
@@ -93,7 +93,7 @@ Web design and front-end development, including back-end development with `PHP`.
         </li>
     </ul><!--
 
- --><div class="layout__item  1/2  small-1/1">
+ --><div class="layout__item  1/2  small-1/1  print-1/2">
 
          <small>Other Skills:</small>
 

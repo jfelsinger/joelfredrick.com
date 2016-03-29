@@ -29,3 +29,13 @@
     .print__only {
         @extend %print__only;
     }
+
+
+.print-1\/2 {
+    width: 50% !important;
+}
+
+
+html {
+    font-size: .75em;
+}

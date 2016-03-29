@@ -18,3 +18,11 @@ nav,
 .print__only {
   display: block !important;
 }
+
+.print-1\/2 {
+  width: 50% !important;
+}
+
+html {
+  font-size: .75em;
+}

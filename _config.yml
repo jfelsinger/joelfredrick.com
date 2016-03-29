@@ -5,6 +5,7 @@ paginate: 8
 paginate_path: "/page/:num"
 excerpt_separator: "<!-- ==== -->"
 permalink: /:year/:i_month/:title
+gems: [jekyll-paginate]
 exclude:
     - package.json
       gulpfile.js
