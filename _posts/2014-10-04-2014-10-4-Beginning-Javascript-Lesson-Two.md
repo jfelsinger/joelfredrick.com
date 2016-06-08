@@ -1,22 +1,27 @@
 ---
+title: 'Beginning Javascript With Node: 2'
+date: 2014-10-04 00:00:00 Z
+categories:
+- tutorial
+- javascript
+- programming
 layout: post
-title:  "Beginning Javascript With Node: 2"
-date:   2014-10-04
 comments: true
-categories: tutorial javascript programming 
-
 navigation: true
-
 navigation_links:
-  - { name: Case Sensitivity, href: "#caseSensitivity" }
-  - { name: White-Space, href: "#whiteSpace" }
-  - { name: Types, href: "#types" }
-  - { name: Numbers, href: "#numbers" }
-  - { name: Strings, href: "#strings" }
-
+- name: Case Sensitivity
+  href: "#caseSensitivity"
+- name: White-Space
+  href: "#whiteSpace"
+- name: Types
+  href: "#types"
+- name: Numbers
+  href: "#numbers"
+- name: Strings
+  href: "#strings"
 summary_links:
-  - { name: Code Challenge, href: "https://dl.dropboxusercontent.com/u/60111312/lesson.2.zip" }
-
+- name: Code Challenge
+  href: https://dl.dropboxusercontent.com/u/60111312/lesson.2.zip
 ---
 
 In this lesson I'll be going over some of Javascript's basic syntax as well as 

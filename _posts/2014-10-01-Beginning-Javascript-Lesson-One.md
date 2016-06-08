@@ -1,20 +1,24 @@
 ---
+title: 'Beginning Javascript With Node: 1'
+date: 2014-10-01 00:00:00 Z
+categories:
+- tutorial
+- node
+- javascript
+- programming
 layout: post
-title:  "Beginning Javascript With Node: 1"
-date:   2014-10-01
 comments: true
-categories: tutorial node javascript programming
-
 navigation: true
-
 navigation_links:
-  - { name: Setup, href: "#gettingSetup" }
-  - { name: Hello World, href: "#helloWorld" }
-
+- name: Setup
+  href: "#gettingSetup"
+- name: Hello World
+  href: "#helloWorld"
 summary_links:
-  - { name: Node.js, href: "http://nodejs.org" }
-  - { name: Brackets, href: "http://brackets.io" }
-
+- name: Node.js
+  href: http://nodejs.org
+- name: Brackets
+  href: http://brackets.io
 ---
 
 Javascript is a quirky little language that originated to add functionality to web

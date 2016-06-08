@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Resume
+layout: page
 ---
 
 <h1 class="print__hidden">Resume</h1>

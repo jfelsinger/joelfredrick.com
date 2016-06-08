@@ -1,13 +1,21 @@
-name: Joel Fredrick
+---
 title: Joel Fredrick
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: Joel Fredrick
 markdown: redcarpet
 highlighter: pygments
 paginate: 8
 paginate_path: "/page/:num"
 excerpt_separator: "<!-- ==== -->"
-permalink: /:year/:i_month/:title
-gems: [jekyll-paginate]
+permalink: "/:year/:i_month/:title"
+gems:
+- jekyll-paginate
 exclude:
-    - package.json
-      gulpfile.js
-      node_modules
+- package.json gulpfile.js node_modules

@@ -1,16 +1,16 @@
 ---
+title: Testing with Couch Cushion, pt. 1
+date: 2016-06-16 00:00:00 Z
+categories:
+- programming
 layout: post
-title:  "Testing with Couch Cushion, pt. 1"
-date:   2016-06-16
 comments: true
-categories: programming
-
 navigation: true
-
 summary_links:
-  - { name: "Couch Cushion", href: "https://www.npmjs.com/package/couch-cushion" }
-  - { name: "Model Test Example", href: "https://www.dropbox.com/s/8iv9t0gksi1xkvi/cart-test.zip?dl=0" }
-
+- name: Couch Cushion
+  href: https://www.npmjs.com/package/couch-cushion
+- name: Model Test Example
+  href: https://www.dropbox.com/s/8iv9t0gksi1xkvi/cart-test.zip?dl=0
 ---
 
 [Couch Cushion](https://www.npmjs.com/package/couch-cushion) is light-weight and

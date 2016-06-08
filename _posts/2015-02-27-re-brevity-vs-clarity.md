@@ -1,15 +1,14 @@
 ---
+title: 're: Brevity vs. Clarity'
+date: 2015-02-27 00:00:00 Z
+categories:
+- css
 layout: post
-title:  "re: Brevity vs. Clarity"
-date:   2015-02-27
 comments: true
-categories: css
-
 navigation: true
-
 summary_links:
-  - { name: "Brevity vs. Clarity, ALA", href: "http://alistapart.com/blog/post/brevity-vs-clarity" }
-
+- name: Brevity vs. Clarity, ALA
+  href: http://alistapart.com/blog/post/brevity-vs-clarity
 ---
 
 Anthony Colangelo recently posted a pretty interesting 

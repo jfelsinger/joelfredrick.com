@@ -1,16 +1,14 @@
 ---
+title: Your friend, the terminal
+date: 2014-01-02 17:47:00 Z
+categories:
+- console
+- tutorial
+- terminal
+- linux
+- unix
 layout: post
-title:  "Your friend, the terminal"
-date:   2014-01-02 17:47:00
 comments: false
-categories: console tutorial terminal linux unix
-
-# navigation: true
-# 
-# navigation_links:
-# - { name: Basics, href: "#basics" }
-# - { name: Getting Around, href: "#navigation" }
-
 ---
 
 These days we live in a world of GUIs. We have buttons, text-boxes, windows 

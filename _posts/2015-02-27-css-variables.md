@@ -1,17 +1,18 @@
 ---
+title: CSS Variables
+date: 2015-02-27 00:00:00 Z
+categories:
+- css
 layout: post
-title:  "CSS Variables"
-date:   2015-02-27
 comments: true
-categories: css
-
 navigation: true
-
 summary_links:
-  - { name: "Using CSS Variables, MDN", href: "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" }
-  - { name: "CSS Variables, w3", href: "http://dev.w3.org/csswg/css-variables/" }
-  - { name: "...A Bad Idea, Aaron gustafson", href: "http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/" }
-
+- name: Using CSS Variables, MDN
+  href: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+- name: CSS Variables, w3
+  href: http://dev.w3.org/csswg/css-variables/
+- name: "...A Bad Idea, Aaron gustafson"
+  href: http://aaron-gustafson.com/notebook/css-variables-are-a-bad-idea/
 ---
 
 If you haven't heard, variables, those useful little things that let you save
