@@ -3,7 +3,7 @@ title: Resume
 layout: page
 ---
 
-<h1 class="print__hidden">Resume</h1>
+<h1 class="print__hidden">Résumé</h1>
 
 I'm a full-stack developer, at home with any part of a code base.
 in both front-end and back-end development, and am just as much at home
