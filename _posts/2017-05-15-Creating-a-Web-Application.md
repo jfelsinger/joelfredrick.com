@@ -1,15 +1,6 @@
 ---
-title: Creating a Web Application
-date: 2017-05-15 00:00:00 Z
-published: false
-categories
-- programming
-layout: post
-comments: true
-navigation: true
-summary_links:
-- name: Couch Cushion
-  href: https://www.npmjs.com/package/couch-cushion
+title: 2017 05 15 Creating A Web Application
+date: 2017-05-15 20:04:06.131000000 Z
 ---
 
 It's long been a goal of mine to create a successful web application of my own.
