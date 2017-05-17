@@ -3,9 +3,9 @@
 \*-------------------------------------*/
 
 /**
- * Lists 
- * 
- * 
+ * Lists
+ *
+ *
  **
  * Base
  *  - Ordered Lists
@@ -19,15 +19,15 @@
  * Implementation
  *  - Base
  *  - Isotopes
- * 
-    
+ *
+
     <div class="content-area">
         <ul>
             <li><!-- ... --></li>
         </ul>
     </div>
 
- * 
+ *
  */
 
 
@@ -181,6 +181,7 @@
 
 /*---   Base   ---*/
 
+.content-area ul,
 %content-area ul,
 // .content-area ul,
 .list--unordered {
@@ -189,6 +190,7 @@
     > li { @extend %list--unordered__item !optional; }
 }
 
+.content-area ol,
 %content-area ol,
 // .content-area ol,
 .list--ordered {
@@ -200,12 +202,14 @@
     .list__item { @extend %list__item !optional; }
 
 
+.content-area dl,
 %content-area dl,
 // .content-area dl,
 .list--definition {
     @extend %list--definition !optional;
 }
 
+    .content-area dt,
     %content-area dt,
     // .content-area dt,
     .list--definition > dt,
@@ -213,6 +217,7 @@
         @extend %list__term !optional;
     }
 
+    .content-area dd,
     %content-area dd,
     // .content-area dd,
     .list--definition > dd,
@@ -229,7 +234,7 @@
 .list--one-line { @extend %list--one-line;  }
 .list--comma    { @extend %list--comma;     }
 .list--image    { @extend %list--image;     }
- 
+
 
 
 

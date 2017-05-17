@@ -2117,9 +2117,9 @@ a::selection, .link::selection {
     LISTS
 \*-------------------------------------*/
 /**
- * Lists 
- * 
- * 
+ * Lists
+ *
+ *
  **
  * Base
  *  - Ordered Lists
@@ -2133,44 +2133,49 @@ a::selection, .link::selection {
  * Implementation
  *  - Base
  *  - Isotopes
- * 
-    
+ *
+
     <div class="content-area">
         <ul>
             <li><!-- ... --></li>
         </ul>
     </div>
 
- * 
+ *
  */
 /*-------------------------------------*\
     Base
 \*-------------------------------------*/
-.list--ordered,
+.content-area ol,
+.list--ordered, .content-area ul,
 .list--unordered {
   padding-left: 1em;
 }
 
-.list--ordered > li,
-.list--unordered > li,
+.content-area ol > li,
+.list--ordered > li, .content-area ul > li,
+.list--unordered > li, .content-area dt,
 .list--definition > dt,
-.list__term,
+.list__term, .content-area dd,
 .list--definition > dd,
 .list__definition, .list__item {
   margin-bottom: 25.888px;
 }
 
 /*---   Ordered List   ---*/
+.content-area ol,
 .list--ordered {
   list-style-type: decimal;
 }
 
 /*---   Unordered List   ---*/
+.content-area ul,
 .list--unordered {
   list-style-type: disc;
 }
 
 /*---   Definition List   ---*/
+.content-area dt,
 .list--definition > dt,
 .list__term {
   font-weight: bold;
