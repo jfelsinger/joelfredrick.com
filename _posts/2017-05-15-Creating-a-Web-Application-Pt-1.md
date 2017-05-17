@@ -63,6 +63,8 @@ I know I'll have to develop the following:
   for when subscriptions expire, handling the changing of a subscriptions, and
   managing what features are accessible based on subscription.)
 
+<br><!-- Because I'm being lazy -->
+
 Along with that I'll also need to put in place the base architecture for serving
 pages and handling requests. Since whatever service we finally provide will be
 presented through a regular ol' web application, I'm looking at creating a REST
@@ -84,9 +86,11 @@ this, but there are three reasons for doing it here:
 3. To improve on the solutions that I've made before in a way that I can be sure
    that I'm not migrating over any bad architectural decisions from past
    projects.
-4. FREE BONUS REASON: So that I can document the process of building a
+4. *FREE BONUS REASON*: So that I can document the process of building a
    (hopefully) well-constructed application from scratch for anyone who wants to
    see how to build a large project themselves.
+
+<br><!-- Because I'm being lazy -->
 
 
 ## So, what will I be using to do this?
@@ -128,6 +132,8 @@ here's a list of some of the different stuff I'll be covering as I build this:
 * Mocha (did somebody say testing?)
 * Gulp.js (my go-to task-runner)
 * Various libraries that I have no clue about yet...
+
+<br><!-- Because I'm being lazy -->
 
 For the tech overview, that's about it. I'll go into more detail on how I'm
 using each of the above as I document the development process in upcoming blog
