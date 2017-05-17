@@ -95,9 +95,10 @@ this, but there are three reasons for doing it here:
 
 ## Things I'll be using
 
-Glad you asked. There are a few new technologies that I plan to try out to
-accomplish this project, and overall it feels like a pretty-big change from my
-usual way of doing things.
+So, what will I be using to do this? Glad you asked (and if you didn't ask, too
+bad). There are a few new technologies that I plan to try out to accomplish this
+project, and overall it feels like a pretty-big change from my usual way of
+doing things.
 
 First off, instead of vanilla JavaScript, for this project I'm going to hop on
 the TypeScript bandwagon. TypeScript as a language has a lot going for it, and
