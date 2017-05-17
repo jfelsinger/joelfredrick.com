@@ -93,7 +93,7 @@ this, but there are three reasons for doing it here:
 <br><!-- Because I'm being lazy -->
 
 
-## So, what will I be using to do this?
+## Things I'll be using
 
 Glad you asked. There are a few new technologies that I plan to try out to
 accomplish this project, and overall it feels like a pretty-big change from my
