@@ -9,7 +9,6 @@ collections:
     title: Uploads
     output: true
 name: Joel Fredrick
-markdown: redcarpet
 highlighter: pygments
 paginate: 8
 paginate_path: "/page/:num"
