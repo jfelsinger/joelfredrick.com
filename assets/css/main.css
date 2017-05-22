@@ -2149,7 +2149,7 @@ a::selection, .link::selection {
 .content-area ol,
 .list--ordered, .content-area ul,
 .list--unordered {
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 .content-area ol > li,
@@ -2605,7 +2605,11 @@ a::selection, .link::selection {
   padding-left: 0;
 }
 
-.skill-list__item {
+.skill-list.layout__item {
+  padding-left: 25.89px;
+}
+
+.skill-list__item.skill-list__item {
   position: relative;
   margin-bottom: 0;
 }
