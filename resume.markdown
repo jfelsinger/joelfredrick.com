@@ -5,10 +5,13 @@ layout: page
 
 <h1 class="print__hidden">Résumé</h1>
 
-I'm a full-stack developer, at home with any part of a code base.
-in both front-end and back-end development, and am just as much at home
-developing REST APIs or console apps as I am creating CSS animations to help
-bring designs to life. Throw a problem at me, I'll solve it.
+I'm a full-stack developer, with a passion for architecturing wonderful
+code-bases and using software to solve real problems. As a developer I've got
+chops all over the board, and am at home with every part of a code base. In both
+front-end and back-end development I have experience with a range of languages,
+technologies, and techniques. Skills and experience that allow me to understand
+your business problems and build software solutions that will blow those
+problems out of the water.
 
 
 ### Experience
@@ -31,7 +34,9 @@ build scalable and highly-maintainable solutions.
 </p>
 
 Full-stack web development for internal and external sites, along with general
-`C#` and `Asp.Net` application development.
+`C#` and `Asp.Net` application development. Heavy use of `MSSQL` and relational
+DB modeling techniques to build applications that communicated with large stores
+of data to present relevant info to various internal teams.
 
 ##### Web Developer/Designer
 
@@ -40,6 +45,8 @@ Full-stack web development for internal and external sites, along with general
 </p>
 
 Web design and front-end development, including back-end development with `PHP`.
+Created various in-house and client-requested web applications, including a CMS
+solution, using `PHP`, `MySQL`, and various web-technologies.
 
 
 ### Education
@@ -99,6 +106,7 @@ Web design and front-end development, including back-end development with `PHP`.
 
          <ul class="skill-list  1/2  palm-1/1  list--one-line  list--comma">
             <li>ES6</li>
+            <li>SQL</li>
             <li>Database Design</li>
             <li>Git</li>
             <li>Photoshop</li>
