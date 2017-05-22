@@ -2202,6 +2202,7 @@ a::selection, .link::selection {
 .list--one-line, .list--image, .list--plain {
   list-style-type: none;
   margin-left: 0;
+  padding-left: 0;
 }
 
 /*---   Single-line List   ---
@@ -2599,10 +2600,12 @@ a::selection, .link::selection {
   font-size: .875em;
   line-height: 1.345;
   list-style: none;
+  padding-left: 0;
 }
 
 .skill-list__item {
   position: relative;
+  margin-bottom: 0;
 }
 .skill-list__item:before {
   content: "";

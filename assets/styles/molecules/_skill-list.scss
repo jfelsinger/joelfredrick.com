@@ -22,11 +22,14 @@
     font-size: .875em;
     line-height: 1.345;
     list-style: none;
+
+    padding-left: 0;
 }
 
     %skill-list__item {
         @extend %clear-fix;
         position: relative;
+        margin-bottom: 0;
 
         &:before {
             content: "";
@@ -69,7 +72,7 @@
     Implementation
 \*-------------------------------------*/
 
-.skill-list { @extend %skill-list !optional; }
+.skill-list.skill-list { @extend %skill-list !optional; }
 
     .skill-list__item {
         @extend %skill-list__item !optional;
