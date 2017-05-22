@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 name: Joel Fredrick
-highlighter: pygments
+highlighter: rouge
 paginate: 8
 paginate_path: "/page/:num"
 excerpt_separator: "<!-- ==== -->"
