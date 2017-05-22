@@ -5,7 +5,7 @@ categories:
 - programming
 layout: post
 comments: true
-navigation: true
+navigation: false
 ---
 
 It's long been a goal of mine to create a successful web application of my own.
