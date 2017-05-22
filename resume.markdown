@@ -25,7 +25,10 @@ problems out of the water.
 Been creating and working-on awesome client projects using technologies like
 `Node.js`, `Couchbase`, and `MongoDb`. Keeping a big focus on improving infrastructure
 and architecture of code-bases as well as leading client development teams to
-build scalable and highly-maintainable solutions.
+build scalable and highly-maintainable solutions. Solutions that include
+database-side internationalization; a full-featured ODM for a then-fledgling
+NoSQL DB system; the architecture and REST API to serve and provide
+functionality for multiple successful social-media sites and apps.
 
 ##### Developer
 
