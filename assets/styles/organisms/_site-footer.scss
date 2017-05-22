@@ -3,19 +3,26 @@
 \*-------------------------------------*/
 
 /**
- * Site Footer 
- * 
+ * Site Footer
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
- */ 
- 
+ *
+
+ *
+ */
+
 
 %site__footer {
+    @include breakpoint(min-width 550px) {
+        .nav,
+        .social {
+            float: none !important;
+            text-align: left !important;
+        }
+    }
 }
 
     %site__footer__span-bar {

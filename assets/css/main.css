@@ -2787,6 +2787,14 @@ a::selection, .link::selection {
 
  *
  */
+@media (min-width: 550px) {
+    .site__footer .nav,
+    .site__footer .social {
+        float: none;
+        text-align: left;
+    }
+}
+
 .site__footer__span-bar {
   line-height: 0;
 }
