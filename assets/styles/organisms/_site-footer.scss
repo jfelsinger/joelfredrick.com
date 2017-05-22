@@ -16,7 +16,7 @@
 
 
 %site__footer {
-    @include breakpoint(min-width 550px) {
+    @include breakpoint(max-width 550px) {
         .nav,
         .social {
             float: none !important;
@@ -26,7 +26,9 @@
 }
 
     %site__footer__span-bar {
-        line-height: 0;
+        @include breakpoint(min-width 551px) {
+            line-height: 0;
+        }
     }
 
 

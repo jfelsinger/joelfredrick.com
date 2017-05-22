@@ -2787,7 +2787,7 @@ a::selection, .link::selection {
 
  *
  */
-@media (min-width: 550px) {
+@media (max-width: 550px) {
     .site__footer .nav,
     .site__footer .social {
         float: none;
@@ -2795,8 +2795,10 @@ a::selection, .link::selection {
     }
 }
 
-.site__footer__span-bar {
-  line-height: 0;
+@media (min-width: 551px) {
+    .site__footer__span-bar {
+      line-height: 0;
+    }
 }
 
 /*-------------------------------------*\
