@@ -230,11 +230,11 @@
 
 /*---   Isotopes   ---*/
 
-.list--flush.list--flush        { @extend %list--flush;     }
-.list--plain.list--plain        { @extend %list--plain;     }
-.list--one-line.list--one-line  { @extend %list--one-line;  }
-.list--comma.list--comma        { @extend %list--comma;     }
-.list--image.list--image        { @extend %list--image;     }
+.list--flush    { &#{&} { @extend %list--flush;     } }
+.list--plain    { &#{&} { @extend %list--plain;     } }
+.list--one-line	{ &#{&} { @extend %list--one-line;	} }
+.list--comma    { &#{&} { @extend %list--comma;     } }
+.list--image    { &#{&} { @extend %list--image;     } }
 
 
 

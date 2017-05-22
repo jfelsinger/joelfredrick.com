@@ -72,7 +72,9 @@
     Implementation
 \*-------------------------------------*/
 
-.skill-list.skill-list { @extend %skill-list !optional; }
+.skill-list {
+    &#{&} { @extend %skill-list !optional; }
+}
 
     .skill-list__item {
         @extend %skill-list__item !optional;

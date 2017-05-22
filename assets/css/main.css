@@ -4,13 +4,13 @@
 \*-------------------------------------*/
 /**
  * Main.scss
- * 
+ *
  * This is the root style file, where everything
  * else stems from.
  *
  **
  * Contents         - You are here
- * 
+ *
  * Imports          - All the file imports
  *  - utilities
  *  - quarks
@@ -18,8 +18,8 @@
  *  - molecules
  *  - pages
  *  - shame
- * 
- * 
+ *
+ *
  */
 /*-------------------------------------*\
     Imports
@@ -468,33 +468,33 @@ ins {
     BREAKPOINTS
 \*-------------------------------------*/
 /**
- * Breakpoints 
- * 
+ * Breakpoints
+ *
  * All the global breakpoints for the app
- * 
-    
- * 
+ *
+
+ *
  * Global Breakpoints:
  *  gbp-[name]
- * 
+ *
  * Local Breakpoints:
  *  bp-[name]
- * 
+ *
  */
 /*---   Inuit Settings   ---*/
 /*-------------------------------------*\
     COLORS
 \*-------------------------------------*/
 /**
- * Colors 
- * 
+ * Colors
+ *
  * All the global colors used throughout
- * 
+ *
  **
  * Base
- * 
- * 
- 
+ *
+ *
+
     [lightest]  [brightest]
     [lighter]   [brighter]
     [light]     [bright]
@@ -503,10 +503,10 @@ ins {
     [darker]    [duller]
     [darkest]   [dullest]
 
- * 
+ *
  * Name Pattern:
  *  c-[name]--[modifier]
- * 
+ *
  */
 /*-------------------------------------*\
     Base Colors
@@ -520,14 +520,14 @@ ins {
     FONTS
 \*-------------------------------------*/
 /**
- * Fonts 
- * 
+ * Fonts
+ *
  **
  * Imports
  * Stacks
- * 
-    
- * 
+ *
+
+ *
  */
 /*-------------------------------------*\
     Imports
@@ -559,38 +559,38 @@ ins {
     GRADIENTS
 \*-------------------------------------*/
 /**
- * Gradients 
- * 
- * 
- * 
-    
- * 
+ * Gradients
+ *
+ *
+ *
+
+ *
  */
 /*-------------------------------------*\
     BORDERS
 \*-------------------------------------*/
 /**
- * Borders 
- * 
+ * Borders
+ *
  * Classes for styled borders
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 /*-------------------------------------*\
     ICONS
 \*-------------------------------------*/
 /**
- * Icons 
- * 
- * 
- * 
-    
- * 
+ * Icons
+ *
+ *
+ *
+
+ *
  */
 [class^="icon--"], [class*=" icon--"] {
   font-family: "icons";
@@ -767,25 +767,25 @@ ins {
     ANIMATIONS
 \*-------------------------------------*/
 /**
- * Animations 
- * 
- * 
- * 
-    
- * 
+ * Animations
+ *
+ *
+ *
+
+ *
  */
 /*-------------------------------------*\
     Settings
 \*-------------------------------------*/
 /**
- *  
- * 
+ *
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 /*-------------------------------------*\
     Implementation
@@ -864,8 +864,8 @@ html {
     ALIGNMENT
 \*-------------------------------------*/
 /**
- * Alignment 
- * 
+ * Alignment
+ *
  * Change the alignment of elements, this
  * includes text-alignment, floats, and
  * clearing
@@ -874,14 +874,14 @@ html {
  *  - clears
  *  - text-align
  *  - floats
- * 
+ *
  * Implementation
  *  - clears
  *  - text-align
  *  - floats
- * 
-    
- * 
+ *
+
+ *
  * [note] I could seperate these out into sections, but they'd be sooo small
  * that I feel better grouping them. :O
  */
@@ -940,16 +940,16 @@ html {
     SCROLL FIX
 \*-------------------------------------*/
 /**
- * Scroll Fix 
- * 
+ * Scroll Fix
+ *
  * Create a container to fix issues with horizontal scrolling
- * 
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .scroll-fix, .one-line {
   width: 100%;
@@ -963,16 +963,16 @@ html {
     WRAPPER
 \*-------------------------------------*/
 /**
- * Wrapper 
- * 
+ * Wrapper
+ *
  * Creates a sort of top-level, site-wide container for keeping the main
  * elements in a site from getting to big.
  **
  * Base
  * Implementation
  *
-    
- * 
+
+ *
  */
 .wrapper {
   text-align: left;
@@ -990,8 +990,8 @@ html {
     PRINT
 \*-------------------------------------*/
 /**
- * Print 
- * 
+ * Print
+ *
  * Styles regarindg print, but not actually stored
  * in the print style sheet.
  *
@@ -999,9 +999,9 @@ html {
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 @media not print {
   .print__only {
@@ -1016,17 +1016,17 @@ html {
     FADE
 \*-------------------------------------*/
 /**
- * Fade 
+ * Fade
  *
  * Faded, slightly transparent element
- * 
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .fade {
   opacity: .7;
@@ -1046,15 +1046,15 @@ html {
     HIDE
 \*-------------------------------------*/
 /**
- * Hide 
- * 
+ * Hide
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .hide,
 .hidden {
@@ -1389,14 +1389,14 @@ html {
     INHERIT COLOR
 \*-------------------------------------*/
 /**
- * Inherit Color 
- * 
+ * Inherit Color
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .inherit-color, .plain-links a, .site__logo__text a, .link--plain, .site__logo__text, .inherit-color:link, .plain-links a:link, .site__logo__text a:link, .link--plain:link, .site__logo__text:link, .inherit-color:visited, .plain-links a:visited, .site__logo__text a:visited, .link--plain:visited, .site__logo__text:visited {
   color: inherit;
@@ -1807,14 +1807,14 @@ html {
     PAGE
 \*-------------------------------------*/
 /**
- * Page 
- * 
+ * Page
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 html {
   text-align: center;
@@ -1824,17 +1824,17 @@ html {
     TYPE
 \*-------------------------------------*/
 /**
- * Type 
- * 
+ * Type
+ *
  * All typographical related elements and styles
- * 
+ *
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .content-area p {
   margin-bottom: 25.888px;
@@ -1908,16 +1908,16 @@ html {
     BUTTONS
 \*-------------------------------------*/
 /**
- * Buttons 
- * 
- * 
+ * Buttons
+ *
+ *
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 /*-------------------------------------*\
     Isotopes
@@ -1929,17 +1929,17 @@ html {
     HEADINGS
 \*-------------------------------------*/
 /**
- * Headings 
- * 
- * 
- * 
+ * Headings
+ *
+ *
+ *
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .alpha, h1, .beta, h2, .gamma, h3, .delta, h4, .epsilon, h5, .heading {
   color: #3e3e3e;
@@ -2025,17 +2025,17 @@ html {
     IMAGES
 \*-------------------------------------*/
 /**
- * Images 
- * 
- * 
- * 
+ * Images
+ *
+ *
+ *
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 /* Import base.images styles from inuit
  * https://github.com/inuitcss/base.images/blob/master/_base.images.scss */
@@ -2081,17 +2081,17 @@ img[height] {
     LINKS
 \*-------------------------------------*/
 /**
- * Links 
- * 
- * 
- * 
+ * Links
+ *
+ *
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 a, .link {
   color: #5496a8;
@@ -2189,7 +2189,7 @@ a::selection, .link::selection {
  **
  * A list with edges flush against the aligned side
  */
-.list--flush {
+.list--flush.list--flush {
   list-style-position: inside;
   margin-left: 0;
 }
@@ -2199,7 +2199,9 @@ a::selection, .link::selection {
  **
  * A plain list with styling removed
  */
-.list--one-line, .list--image, .list--plain {
+.list--one-line.list--one-line,
+.list--image.list--image,
+.list--plain.list--plain {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
@@ -2241,17 +2243,17 @@ a::selection, .link::selection {
     SELECTIONS
 \*-------------------------------------*/
 /**
- * Selections 
- * 
- * 
- * 
+ * Selections
+ *
+ *
+ *
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 ::selection, .selection {
   color: #fff;
@@ -2269,20 +2271,20 @@ a::selection, .link::selection {
     SLABS
 \*-------------------------------------*/
 /**
- * Slabs 
- * 
+ * Slabs
+ *
  * Simple slabs of styling that takes up a whole block of an area,
- * 
+ *
  **
- * Base 
+ * Base
  * Isotopes
  * Implementation
- * 
+ *
     <div>
         <div class="slab--black">
         </div>
     </div>
- * 
+ *
  */
 .slab--default {
   color: #000;
@@ -2342,15 +2344,15 @@ a::selection, .link::selection {
     BUTTON EXPAND
 \*-------------------------------------*/
 /**
- * Button Expand 
- * 
+ * Button Expand
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .button-expand {
   text-indent: -9999px;
@@ -2393,12 +2395,12 @@ a::selection, .link::selection {
     DISPLAY TEXT
 \*-------------------------------------*/
 /**
- * Display Text 
- * 
- * 
- * 
-    
- * 
+ * Display Text
+ *
+ *
+ *
+
+ *
  */
 .display-text {
   color: white;
@@ -2421,12 +2423,12 @@ a::selection, .link::selection {
     HIGHLIGHT
 \*-------------------------------------*/
 /**
- * Highlight 
- * 
- * 
- * 
-    
- * 
+ * Highlight
+ *
+ *
+ *
+
+ *
  */
 .highlight {
   font-family: "Inconsolata", Inconsolata, Consolas, monospace;
@@ -2450,14 +2452,14 @@ a::selection, .link::selection {
     MAIN CONTENT
 \*-------------------------------------*/
 /**
- * Main Content 
- * 
+ * Main Content
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .mainContent,
 .main-content {
@@ -2474,14 +2476,14 @@ a::selection, .link::selection {
 \*-------------------------------------*/
 /**
  * Post Content
- * 
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 /*-------------------------------------*\
     Isotopes
@@ -2497,15 +2499,15 @@ a::selection, .link::selection {
     POST SUMMARY
 \*-------------------------------------*/
 /**
- * Post Summary 
- * 
+ * Post Summary
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .post-summary {
   border: 1px solid #e6e6e6;
@@ -2535,15 +2537,15 @@ a::selection, .link::selection {
     POST TIME
 \*-------------------------------------*/
 /**
- * Post Time 
- * 
+ * Post Time
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .post-time {
   font-family: "PT Serif Caption", "PTSerif-Caption";
@@ -2557,15 +2559,15 @@ a::selection, .link::selection {
     POST
 \*-------------------------------------*/
 /**
- * Post 
- * 
+ * Post
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .post--separated {
   border-bottom: 2px solid #e6e6e6;
@@ -2596,7 +2598,7 @@ a::selection, .link::selection {
     </ul>
  *
  */
-.skill-list {
+.skill-list.skill-list {
   font-size: .875em;
   line-height: 1.345;
   list-style: none;
@@ -2650,15 +2652,15 @@ a::selection, .link::selection {
     SPAN BAR
 \*-------------------------------------*/
 /**
- * Span Bar 
- * 
+ * Span Bar
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .span-bar {
   margin-bottom: 25.888px;
@@ -2700,15 +2702,15 @@ a::selection, .link::selection {
     TOGGLE SLIDER
 \*-------------------------------------*/
 /**
- * Toggle Slider 
- * 
+ * Toggle Slider
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .toggle-slider {
   position: relative;
@@ -2746,14 +2748,14 @@ a::selection, .link::selection {
     SITE CONTACT INFO
 \*-------------------------------------*/
 /**
- * Site Contact Info 
- * 
+ * Site Contact Info
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .site__contact-info {
   padding-left: 12.944px;
@@ -2771,15 +2773,15 @@ a::selection, .link::selection {
     SITE FOOTER
 \*-------------------------------------*/
 /**
- * Site Footer 
- * 
+ * Site Footer
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .site__footer__span-bar {
   line-height: 0;
@@ -2792,14 +2794,14 @@ a::selection, .link::selection {
     SITE HEADER
 \*-------------------------------------*/
 /**
- * Site Header 
- * 
+ * Site Header
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .site-header {
   min-height: 77.664px;
@@ -2814,15 +2816,15 @@ a::selection, .link::selection {
     SITE LOGO
 \*-------------------------------------*/
 /**
- * Site Logo 
- * 
+ * Site Logo
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .site__logo {
   display: none !important;
@@ -2868,14 +2870,14 @@ a::selection, .link::selection {
     SITE NAV
 \*-------------------------------------*/
 /**
- * Site Nav 
- * 
+ * Site Nav
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .site__nav {
   font-size: 18px;
@@ -2905,14 +2907,14 @@ a::selection, .link::selection {
     LISTING HEADER
 \*-------------------------------------*/
 /**
- * Listing Header 
- * 
+ * Listing Header
+ *
  **
  * Base
  * Implementation
- * 
-    
- * 
+ *
+
+ *
  */
 .listing-header {
   padding-right: 103.552px;
@@ -2929,12 +2931,12 @@ a::selection, .link::selection {
 \*-------------------------------------*/
 /**
  * Shame
- * 
- * Where all the crappy styles go, the bad ones and the quick ones that you 
+ *
+ * Where all the crappy styles go, the bad ones and the quick ones that you
  * don't have time to bother with too much.
- * 
-    
- * 
+ *
+
+ *
  */
 /**
  * [Deprecated] Use the inuitcss trumps.spacing module
