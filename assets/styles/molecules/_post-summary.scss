@@ -3,17 +3,17 @@
 \*-------------------------------------*/
 
 /**
- * Post Summary 
- * 
+ * Post Summary
+ *
  **
  * Base
  * Isotopes
  * Implementation
- * 
-    
- * 
- */ 
- 
+ *
+
+ *
+ */
+
 
 %post-summary {
     border: 1px solid $c-border;
@@ -21,6 +21,9 @@
 }
 
     %post-summary__list {
+        li {
+            margin-bottom: 0;
+        }
     }
 
     %post-summary__links {
@@ -48,6 +51,7 @@
 .post-summary { @extend %post-summary !optional; }
 
 .post-summary__links { @extend %post-summary__links !optional; }
+.post-summary__list.post-summary__list { @extend %post-summary__list !optional; }
 
 .post-summary__links:first-of-type,
 .post-summary--first { @extend %post-summary__links--first !optional; }

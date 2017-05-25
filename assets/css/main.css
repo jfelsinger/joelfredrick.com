@@ -2524,6 +2524,10 @@ a::selection, .link::selection {
   border-bottom: 1px solid #c9c9c9;
 }
 
+.post-summary__list.post-summary__list li {
+    margin-bottom: 0;
+}
+
 .post-summary__links:first-of-type,
 .post-summary--first {
   padding-top: 0;

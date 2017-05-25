@@ -5,7 +5,16 @@ categories:
 - programming
 layout: post
 comments: true
-navigation: false
+navigation: true
+navigation_links:
+- name: Hello World!
+  href: #helloWorld
+- name: Compiled JavaScript
+  href: #compile
+- name: ts-node
+  href: #tsnode
+- name: Using NPM Packages
+  href: #npm
 ---
 
 To get started using TypeScript with Node.js, the first thing you'll have to do
@@ -23,7 +32,7 @@ npm install -g typescript
 
 If you don't already have Node.js and NPM installed, you'll want [to do that](https://nodejs.org/en/download/).
 
-### Hello World!
+### Hello World!    {#helloWorld}
 
 To get started, let's make a familiar "Hello World" program. First, create
 a folder to house your little project. Then create a file, `hello.ts` with
@@ -52,7 +61,7 @@ node hello.js
 If all went well, you should see a nice, friendly "Hello World!" output to the
 console where you ran the last command.
 
-### Examining the compiled JavaScript
+### Examining the compiled JavaScript   {#compile}
 
 After running the above, you might be curious about the quality of the JavaScript
 that your TypeScript is being compiled to. Well, in my short experience,
@@ -128,7 +137,7 @@ Great! Everything is there as you'd expect it. You even have a `"use strict";`
 statement, which was missing from the first compilation.
 
 
-### Skip some steps with `ts-node`
+### Skip some steps with `ts-node`  {#tsnode}
 
 Our program is nice, but, if you're like me, you'll likely wish you could skip
 the compilation step, at least for debugging. Luckilly, that's easilly done with
@@ -155,7 +164,7 @@ use your `tsconfig.json` to tell it how to interpret the TypeScript that it's
 running, so you don't have to worry about your configuration being ignored.
 
 
-## Using NPM Modules In TypeScript
+## Using NPM Modules In TypeScript  {#npm}
 
 One of the most useful things about Node.js is its robust ecosystem of packages,
 which you can add to a project through the node package manager, NPM. If you're
