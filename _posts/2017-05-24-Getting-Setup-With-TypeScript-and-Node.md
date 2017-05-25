@@ -18,7 +18,7 @@ Assuming you have Node.js and NPM installed, the first thing you'll want to do
 is actually install typescript itself:
 
 ```shell
-npm install -g typescript:
+npm install -g typescript
 ```
 
 If you don't already have Node.js and NPM installed, you'll want [to do that](https://nodejs.org/en/download/).
