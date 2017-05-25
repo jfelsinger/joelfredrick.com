@@ -3,14 +3,14 @@
 \*-------------------------------------*/
 
 /**
- * Highlight 
- * 
- * 
- * 
-    
- * 
- */ 
- 
+ * Highlight
+ *
+ *
+ *
+
+ *
+ */
+
 
 %highlight {
     font-family: $f-inconsolata;
@@ -34,3 +34,7 @@
 \*-------------------------------------*/
 
 .highlight { @extend %highlight !optional; }
+.language-shell > pre.highlight:before {
+    content: "$ ";
+    color: #d14;
+}

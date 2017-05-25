@@ -18,7 +18,7 @@ Assuming you have Node.js and NPM installed, the first thing you'll want to do
 is actually install typescript itself:
 
 ```shell
-$ npm install -g typescript:
+npm install -g typescript:
 ```
 
 If you don't already have Node.js and NPM installed, you'll want [to do that](https://nodejs.org/en/download/).
@@ -40,13 +40,13 @@ console.log(message);
 You can then compile this:
 
 ```shell
-$ tsc hello.ts
+tsc hello.ts
 ```
 
 And run the output:
 
 ```shell
-$ node hello.js
+node hello.js
 ```
 
 If all went well, you should see a nice, friendly "Hello World!" output to the
@@ -86,7 +86,7 @@ configure the TypeScript compiler. Luckilly, getting a `tsconfig.json` file to
 play with is as easy as:
 
 ```shell
-$ tsc --init
+tsc --init
 ```
 
 This will create a `tsconfig.json` file with a lot of stuff already set inside of
@@ -105,7 +105,7 @@ it. You'll want to open that `tsconfig.json` and edit the `target` value:
 After you've edited and saved the configuration, you can then compile again:
 
 ```shell
-$ tsc
+tsc
 ```
 
 Notice that I haven't specified `hello.ts` this time. This is because `tsc` will
@@ -139,14 +139,14 @@ quick testing.
 First install the `ts-node` module with npm:
 
 ```shell
-$ npm install -g ts-node
+npm install -g ts-node
 ```
 
 Then you can use `ts-node` to run your TypeScript directly, the same as you would
 with a JavaScript file and Node.js:
 
 ```shell
-$ ts-node hello.ts
+ts-node hello.ts
 ```
 
 Again, If all went well, you should see the same friendly message as before.
@@ -177,13 +177,13 @@ Most of the popular packages on NPM will also have an `@types` counterpart,
 which contains the type information for it. So when you install a package:
 
 ```shell
-$ npm install chalk
+npm install chalk
 ```
 
 You can *usually* also install the types for it:
 
 ```shell
-$ npm install @types/chalk
+npm install @types/chalk
 ```
 
 Then you can use those modules in a programs. Going back to the example from
@@ -199,7 +199,7 @@ console.log(chalk.blue(message));
 ```
 
 ```shell
-$ ts-node hello.ts
+ts-node hello.ts
 ```
 
 That should output the same as above, but this time (if your console supports it)

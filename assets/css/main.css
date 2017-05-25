@@ -2448,6 +2448,11 @@ a::selection, .link::selection {
 /*-------------------------------------*\
     Implementation
 \*-------------------------------------*/
+.language-shell > pre.highlight:before {
+    content: "$ ";
+    color: #d14;
+}
+
 /*-------------------------------------*\
     MAIN CONTENT
 \*-------------------------------------*/
