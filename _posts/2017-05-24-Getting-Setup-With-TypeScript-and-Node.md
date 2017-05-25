@@ -1,6 +1,6 @@
 ---
 title: Getting Setup With TypeScript and Node.js
-date: 2017-05-15 20:04:06.131000000 Z
+date: 2017-05-24 20:04:06.131000000 Z
 categories:
 - programming
 layout: post
