@@ -8,13 +8,13 @@ comments: true
 navigation: true
 navigation_links:
 - name: Hello World!
-  href: #helloWorld
+  href: 
 - name: Compiled JavaScript
-  href: #compile
+  href: 
 - name: ts-node
-  href: #tsnode
+  href: 
 - name: Using NPM Packages
-  href: #npm
+  href: 
 ---
 
 To get started using TypeScript with Node.js, the first thing you'll have to do
